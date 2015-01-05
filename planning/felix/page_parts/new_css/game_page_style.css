@@ -1,0 +1,118 @@
+/****
+ * Header part
+ ****/
+
+.game_header_wrapper {
+	position : relative;
+	background-color : #000;
+	height : 200px;
+	color : #FFF;
+}
+.game_header_wrapper > .header {
+	position : absolute;
+	top : 0;
+	left : 0;
+	color : #FFF;
+	padding : 10px 20px;
+	margin : 0;
+	border : solid 10px #FFF;
+	min-width : 50%;
+}
+.game_header_wrapper .sub_header {
+	position : absolute;
+	right : 0;
+	bottom : 0;
+	color : #FFF;
+	padding : 10px 20px;
+}
+
+
+/****
+ * Body part
+ ****/
+
+.game_body_wrapper {
+	
+}
+.main_titles {
+	padding : 0;
+}
+.main_titles .item {
+	list-style : none;
+	background-color : #000;
+}
+.main_titles .first {
+	
+}
+.main_titles .last {
+	
+}
+.main_titles .header {
+	margin : 10px;
+	color : #FFF;
+}
+.main_titles .table {
+	width : 100%;
+	border-spacing : 10px 15px;
+	border-collapse : separate;
+}
+.main_titles .row {
+	
+}
+.main_titles .cell {
+	color : #FFF;
+	text-align : center;
+	border : solid 1px #FFF;
+	padding : 10px;
+}
+
+.sub_titles {
+	background-color : #000;
+}
+.entry {
+	display : inline-block;
+	max-width : 50%;
+}
+.entry > .header {
+	color : #FFF;
+}
+.entry .list {
+	padding : 0 10px;
+}
+.entry .item {
+	list-style : none;
+}
+.entry .first {
+	
+}
+.entry .last {
+	
+}
+.entry .item .header {
+	color : #FFF;
+}
+.entry .item .description {
+	color : #FFF;
+	margin-left : 10px;
+}
+
+/****
+ * Footer part
+ ****/
+
+.game_footer_wrapper {
+	background-color : #000;
+}
+.game_footer_wrapper .list {
+	
+}
+.game_footer_wrapper .list .item {
+	display : inline-block;
+	list-style : none;
+}
+.game_footer_wrapper .list .first {
+	
+}
+.game_footer_wrapper .list .last {
+	
+}
