@@ -1,0 +1,116 @@
+/****
+ * Header part
+ ****/
+
+.game_general_header_wrapper {
+	position : relative;
+	background-color : #000;
+	height : 200px;
+	color : #FFF;
+}
+.game_general_header_wrapper > .header {
+	position : absolute;
+	top : 0;
+	left : 0;
+	color : #FFF;
+	padding : 10px 20px;
+	margin : 0;
+	border : solid 10px #FFF;
+	min-width : 50%;
+}
+.game_general_header_wrapper .sub_header {
+	position : absolute;
+	right : 0;
+	bottom : 0;
+	color : #FFF;
+	padding : 10px 20px;
+}
+
+/****
+ * Left column part
+ ****/
+
+.game_general_left_column_wrapper {
+	
+}
+.cover_image {
+	background-color : #000;
+	padding : 10px;
+}
+.cover_image .image {
+	width : 100%;
+	color : #FFF;
+}
+.download_section {
+	background-color : #FC0;
+	padding : 20px;
+	margin : 10px 0;
+}
+.download.button {
+	display : block;
+	margin : 32px auto;
+	font-size : 48px;
+	color : #FFF;
+	border : outset 2px #640;
+	background-color : #EA0;
+	border-radius : 10px;
+}
+.download.button:hover {
+	border-style : outset;
+}
+.download.button:active {
+	border-style : inset;
+}
+.game_general_left_column_wrapper .list {
+	margin : 0;
+	padding : 0;
+}
+.game_general_left_column_wrapper .item {
+	list-style : none;
+	background-color : #000;
+	padding : 20px;
+	margin : 10px 0;
+}
+.game_general_left_column_wrapper .first {
+	
+}
+.game_general_left_column_wrapper .last {
+	
+}
+.screenshoot {
+	color : #FFF;
+}
+
+/****
+ * Right column part
+ ****/
+
+.game_general_right_column_wrapper {
+	background-color : #000;
+	padding : 10px;
+}
+.description {
+	color : #FFF;
+	padding : 10px;
+}
+
+/****
+ * Footer part
+ ****/
+
+.game_general_footer_wrapper {
+	background-color : #000;
+}
+.game_general_footer_wrapper .list {
+	
+}
+.game_general_footer_wrapper .list .item {
+	display : inline-block;
+	list-style : none;
+}
+.game_general_footer_wrapper .list .first {
+	
+}
+.game_general_footer_wrapper .list .last {
+	
+}

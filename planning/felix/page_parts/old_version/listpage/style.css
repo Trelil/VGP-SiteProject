@@ -1,0 +1,64 @@
+/****
+ * Header part
+ ****/
+
+.listpage_header_wrapper {
+	
+}
+.listpage_header_wrapper .header {
+	
+}
+.listpage_header_wrapper .sub_header {
+	
+}
+
+
+/****
+ * Body part
+ ****/
+
+.listpage_body_wrapper {
+	
+}
+.listpage_body_wrapper .list {
+	
+}
+.listpage_body_wrapper .list .item {
+	
+}
+.listpage_body_wrapper .list .first {
+	
+}
+.listpage_body_wrapper .list .last {
+	
+}
+.item .header {
+	
+}
+.item .description {
+	
+}
+.item .go {
+	
+}
+
+/****
+ * Footer part
+ ****/
+
+.listpage_footer_wrapper {
+	background-color : #000;
+}
+.listpage_footer_wrapper .list {
+	
+}
+.listpage_footer_wrapper .list .item {
+	display : inline-block;
+	list-style : none;
+}
+.listpage_footer_wrapper .list .first {
+	
+}
+.listpage_footer_wrapper .list .last {
+	
+}

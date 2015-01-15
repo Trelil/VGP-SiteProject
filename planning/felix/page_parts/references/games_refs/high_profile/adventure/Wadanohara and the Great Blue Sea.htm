@@ -1,0 +1,554 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>Wadanohara and the Great Blue Sea</title>
+<link rel="stylesheet" type="text/css" href="Wadanohara%20and%20the%20Great%20Blue%20Sea_files/stylish.css">
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-43682553-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<style type="text/css">
+body
+{
+align: center;
+background-color: #273D7F;
+background-image: url("/graphics/WadanoharaBGStars.png");
+color: #FFFFFF;
+font-size: 13px;
+text-align: center;
+}
+
+a:link
+{
+color: #99AACC;
+}
+a:visited
+{
+color: #99AACC;
+}
+a:hover
+{
+color: #AABBEE;
+}
+a:active
+{
+color: #AABBEE;
+}
+
+img
+{
+image-rendering: auto;
+}
+
+a#hint
+{
+color: #000000;
+text-decoration: underline;
+}
+
+hr
+{
+border: 0;
+background-color: #BBCCFF;
+height: 2px;
+margin-left: auto;
+}
+
+font#hint
+{
+color: #000000;
+background-color: #000000;
+}
+
+table#youtwit
+{
+color: #FFFFFF;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+background-color: #112255;
+border-color: #CCCCCC;
+padding: 8px;
+opacity: 1;
+}
+
+div#main
+{
+width: 800px;
+margin-left: auto;
+margin-right: auto;
+background-color: rgba(19, 32, 84, 0.8); // #132054
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(44, 61, 124, 0.8)), to(rgba(19, 32, 84, 0.8)));
+background: -webkit-linear-gradient(rgba(44, 61, 124, 0.8), rgba(19, 32, 84, 0.8));
+background: -moz-linear-gradient(top, rgba(44, 61, 124, 0.8), rgba(19, 32, 84, 0.8));  // #2C3D7C and #132054
+//opacity: 0.8;
+padding: 16px;
+border-style: solid;
+border-color: rgba(255, 255, 255, 0.8); // #FFFFFF
+border-width: 2px;
+border-radius: 10px;
+}
+</style>
+<script language="JavaScript">
+var eshow = 0;
+var tshow = 0;
+
+function toggleWalk()
+{
+	if(eshow == 0)
+	{
+		eshow = 1;
+		document.getElementById("walkthrough").style.display = "inline";
+	}
+	else
+	{
+		eshow = 0;
+		document.getElementById("walkthrough").style.display = "none";
+	}
+}
+function toggleTracks()
+{
+	if(tshow == 0)
+	{
+		tshow = 1;
+		document.getElementById("tracks").style.display = "inline";
+	}
+	else
+	{
+		tshow = 0;
+		document.getElementById("tracks").style.display = "none";
+	}
+}
+function sortChronological()
+{
+	document.getElementById("chronological").style.display = "inline";
+	document.getElementById("alphabetical").style.display = "none";
+}
+function sortAlphabetical()
+{
+	document.getElementById("alphabetical").style.display = "inline";
+	document.getElementById("chronological").style.display = "none";
+}
+</script>
+</head>
+<body>
+
+<div id="main">
+
+<img src="Wadanohara%20and%20the%20Great%20Blue%20Sea_files/WadanoharaTitle.png"><br><br>
+
+<b>Wadanohara and the Great Blue Sea</b> is a pseudo-RPG with a heavy story focus,<br>
+made by <a href="http://okegom.web.fc2.com/story/wadanohara/">Mogeko</a> (site name Deep-Sea Prisoner) in RPG Maker 2000.<br>
+<br>
+<i>A clear blue sea under a beautiful blue sky.<br>
+After a long departure, the sea witch Wadanohara travels back home with her familiars.<br>
+But her ex-familiar, the shark Samekichi, appears to block her way:<br>
+"You shouldn't be here... Leave this sea, right now."</i><br><br>
+
+<b>WARNING:</b><br>
+Mogeko rates this game <b>"ages 15 and up,"</b> mostly for graphic content later on.<br>
+(This rating is Japan-centric and would likely be more strict by other countries' standards; <b>18 and up</b> may be more appropriate.)<br>
+I would advise against playing if you think you may be upset by <b>implied sexual assault and violent imagery.</b><br>
+
+<br><hr><br>
+
+<a href="http://www.mediafire.com/?4a2dsch3a23mj2p">Download Wadanohara and the Great Blue Sea 1.03</a> | <a href="http://vgperson.com/games/Wadanohara103.zip">(Mirror)</a><br>
+(Please disregard if Chrome tells you the file is malicious; this is in error and beyond my control.)<br><br>
+
+<a href="http://rpgosx.tumblr.com/rpghub">RPGHub</a> is recommended to play on a Mac.<br>
+(Please report any issues with RPGHub to RPGOSX, not to me.)<br>
+
+<br><hr><br>
+
+<b>Troubleshooting</b><br><br>
+
+Please make sure to extract the game to its own folder instead of running directly from the ZIP file.<br>
+If you don't do so, any saves made will be lost the next time you run the game.<br><br>
+
+If you get a DirectDraw error, right-click the EXE, go to Properties, Compatability, and try other compatibility modes.<br><br>
+
+Control issues ("automatically moving in a direction" or "no buttons 
+work") are inherent to RPG Maker and cannot be fixed permanently.<br>
+To fix them, try turning on NumLock and pressing Shift and a Numpad direction at the exact same time until controls normalize.<br>
+(This undoes the issue of RPG Maker getting "stuck" on an input if Shift and a Numpad button are pressed simultaneously.)<br>
+
+<br><hr><br>
+
+<b>Screenshots</b><br>
+<br>
+
+<table align="center">
+<tbody><tr align="center"><td><img src="Wadanohara%20and%20the%20Great%20Blue%20Sea_files/WadanoharaScreen1.png"><br>
+<img src="Wadanohara%20and%20the%20Great%20Blue%20Sea_files/WadanoharaScreen2.png"><br>
+<img src="Wadanohara%20and%20the%20Great%20Blue%20Sea_files/WadanoharaScreen3.png"></td></tr>
+</tbody></table>
+
+<br><hr style="width: 80%"><br>
+
+<b>Extras</b><br><br>
+
+The game is very straightfoward, but there are some things you might miss. (Spoiler warning!)<br>
+<br>
+<a href="javascript:%20toggleWalk()">Extras</a><br>
+<div id="walkthrough" style="display: none">
+<br>
+<table id="youtwit">
+<tbody><tr><td> 
+<b>Holy Healing Items</b><br>
+Collect the seven shiny keys and unlock the red chest<br>
+in Deepsea Town for 99 of the ultimate healing items.<br><br>
+
+<b>Shiny Key Locations</b><br>
+Shiny Key 1: On Star Isle, on the right path.<br>
+Shiny Key 2: Near the lonely grave at the back end of Lonely Isle.<br>
+Shiny Key 3: Down the left path on Windmill Isle.<br>
+Shiny Key 4: At the back end of Hydrangea Isle.<br>
+Shiny Key 5: On the path up Rocky Mount.<br>
+Shiny Key 6: In the top-left corner of Deepsea Town.<br>
+Shiny Key 7: On the path through Rainbow Isle.<br><br>
+
+<b>Bad End 1</b><br>
+Escape from the battle on the Rocky Mount.<br><br>
+
+<b>Bad End 2</b><br>
+Choose to go save Samekichi when he gets dragged away.<br><br>
+
+<b>Normal End 1</b><br>
+Choose the only option.<br><br>
+
+<b>Normal End 2</b><br>
+Continue, and choose the only... other option.<br><br>
+
+<b>True End</b><br>
+Continue, and choose the last option.<br><br>
+
+<b>Second Playthrough</b><br>
+There are actually no bonuses on your second playthrough. Sorry.<br><br>
+
+<b>Bonus Comics</b><br>
+I've translated some of the Wadanohara comics from the bonus pages on Mogeko's site.<br>
+Most are from the post-clear bonus page, so <b>don't look at these before beating the game!</b><br>
+And like the game itself, <b>be wary of morbid and unsettling images.</b><br>
+<a href="http://vgperson.com/games/wharfroachnohara.htm">Bonus Comics
+</a></td></tr>
+</tbody></table>
+</div> 
+
+<br><hr style="width: 80%"><br>
+
+<b>Music</b><br><br>
+
+Below is a list of all the songs used in the game.<br>
+I don't have individual source links, but all songs can be found in the Music folder.<br>
+There are <b>definite spoilers</b> for their usage, so don't look until you've beaten the game!<br><br>
+
+For clarification, the filename titles are the titles given by the original sites, so they aren't based on the game.<br>
+The "Usage" names are descriptions I made up based on where they're used - Mogeko had no part in deciding those.<br><br>
+
+<a href="javascript:%20toggleTracks()">Song List</a><br>
+<div id="tracks" style="display: none">
+
+<div id="chronological">
+<br>
+<table id="youtwit" width="700px">
+<tbody><tr align="center"><td colspan="3"><a href="javascript:%20sortAlphabetical()"><b>Sorted Chronologically</b></a><br></td></tr>
+<tr align="center"><td><b>Filename</b></td> <td><b>Usage</b></td> <td><b>Source</b></td></tr>
+<tr align="center"><td>MusicEgg_WaltzOfDestiny</td> <td>Title / Reunion</td> <td>Music Egg</td></tr>
+<tr align="center"><td>Hagall_RustedChain</td> <td>The Sea Witch</td> <td>Hagall</td></tr>
+<tr align="center"><td>CAMeLIA_DinnerParty</td> <td>Opening / Samekichi's Resolve</td> <td>*CAMeLIA*</td></tr>
+<tr align="center"><td>Amor Kana_Skyblue</td> <td>My Dear Girl</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>MusicEgg_YoullBeLate</td> <td>Normal Battle</td> <td>Music Egg</td></tr>
+<tr align="center"><td>MaouDamashii_Event31</td> <td>Game Over</td> <td>Maou Damashii</td></tr>
+<tr align="center"><td>Hagall_FurtherThanTheMoon</td> <td>Star Isle</td> <td>Hagall</td></tr>
+<tr align="center"><td>MaouDamashii_Event37</td> <td>Versus Flippin' Birds</td> <td>Maou Damashii</td></tr>
+<tr align="center"><td>MaouDamashii_Village08</td> <td>Nekoyama</td> <td>Maou Damashii</td></tr>
+<tr align="center"><td>Hagall_EccentricWitchsShop</td> <td>Chlomaki</td> <td>Hagall</td></tr>
+<tr align="center"><td>Cnoc_StarvedMan</td> <td>Versus Samekichi</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Amor Kana_HolyNightOfHeavySnow</td> <td>Sea Kingdom Gate</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>Hagall_TreeShadeWaltz(Jingle)</td> <td>Intermission</td> <td>Hagall</td></tr>
+<tr align="center"><td>Amor Kana_DancingFairies</td> <td>Path to Deepsea Town</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>MaouDamashii_Event05</td> <td>Battle 2</td> <td>Maou Damashii</td></tr>
+<tr align="center"><td>Cnoc_Ocean</td> <td>Deepsea Town</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Amor Kana_LoneWorld</td> <td>Music Box</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>Cnoc_Children</td> <td>Tarako</td> <td>Cnoc</td></tr>
+<tr align="center"><td>MusicEgg_AllAlone</td> <td>Miyura</td> <td>Music Egg</td></tr>
+<tr align="center"><td>Cnoc_PursuedJourney</td> <td>Coral Sea</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_HollowPath</td> <td>Coral Path</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Amor Kana_NORNS</td> <td>Sea of Stars</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>MusicEgg_Skirmish</td> <td>Versus Helica</td> <td>Music Egg</td></tr>
+<tr align="center"><td>Amor Kana_DryingOutDreams</td> <td>Path to the Castle</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>Amor Kana_MercuryTown</td> <td>Sea God Castle</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>Amor Kana_ToTheAngelsLostTheirWings(Crystal)</td> <td>Princess's Seat</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>CAMeLIA_KakomeKakome</td> <td>Tosatsu Kingdom</td> <td>*CAMeLIA*</td></tr>
+<tr align="center"><td>MusicEgg_Himari</td> <td>New Clothes</td> <td>Music Egg</td></tr>
+<tr align="center"><td>Cnoc_NostalgicSea(PianoVer)</td> <td>Wadanohara's Piano</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_FloatingArcadia(Piano)</td> <td>Lonely Isle</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_EndlessPlain</td> <td>Island Cave</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Amor Kana_FleetingDreamInFog</td> <td>Moonstones</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>Cnoc_YawlMovesOn</td> <td>Windmill Isle</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_ReverseRoom</td> <td>Bunny Soldiers</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_MadScientist</td> <td>Versus Bunny Soldiers</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_BirdCage</td> <td>Hydrangea Isle</td> <td>Cnoc</td></tr>
+<tr align="center"><td>MusicEgg_SuspiciousHealersWorkshop</td> <td>A Strolling Orca</td> <td>Music Egg</td></tr>
+<tr align="center"><td>Cnoc_CuriousSolidarity</td> <td>Violent Orca</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_Confrontation</td> <td>Versus Orca</td> <td>Cnoc</td></tr>
+<tr align="center"><td>On-Jin_BGM-LoopSuspenseR02</td> <td>Suspense</td> <td>On-Jin</td></tr>
+<tr align="center"><td>Cnoc_DQesqueContinent</td> <td>Underwater Cave</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Amor Kana_WindowLight</td> <td>Deep Sea of Stars</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>Cnoc_TimeMarchesOn</td> <td>Old Sea</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Amor Kana_OceanOfTheHeart</td> <td>Wadanohara's Ocarina</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>Cnoc_TownBustle</td> <td>Rainbow Isle</td> <td>Cnoc</td></tr>
+<tr align="center"><td>MusicEgg_HappyDays</td> <td>Rainbow!</td> <td>Music Egg</td></tr>
+<tr align="center"><td>MusicEgg_UnderTheSameSky</td> <td>Wadanohara's Piano</td> <td>Music Egg</td></tr>
+<tr align="center"><td>Amor Kana_Gardenia</td> <td>The Right to Choose</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>Amor Kana_LifeInDeepGreen</td> <td>Because I Want To</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>Amor Kana_SkyBlueRain</td> <td>Like Your Father</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>Senses Circuit_SunbeamSpot-PianoVer-</td> <td>Wadanohara's Piano</td> <td>Senses Circuit</td></tr>
+<tr align="center"><td>MusicEgg_CandySong</td> <td>Banquet</td> <td>Music Egg</td></tr>
+<tr align="center"><td>CAMeLIA_ShadowChaser</td> <td>The Two Princesses</td> <td>*CAMeLIA*</td></tr>
+<tr align="center"><td>Cnoc_RingingEars</td> <td>What Am I Forgetting</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_Strategem</td> <td>Hired Mercenary</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_Prison</td> <td>Successful Plan</td> <td>Cnoc</td></tr>
+<tr align="center"><td>MusicEgg_WondrousTime</td> <td>Ride on Samekichi</td> <td>Music Egg</td></tr>
+<tr align="center"><td>MusicEgg_ThePreparingPeople</td> <td>Apple Isle</td> <td>Music Egg</td></tr>
+<tr align="center"><td>MusicEgg_LittleJoys</td> <td>Samekichi and the Apples</td> <td>Music Egg</td></tr>
+<tr align="center"><td>Amor Kana_PaleMoonDrip</td> <td>Under the Crescent Moon</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>Amor Kana_GapOfTime</td> <td>Never Feeling Lonely</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>Amor Kana_OblivionOfTheFullMoon</td> <td>...No Treasure?</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>Amor Kana_ma meno</td> <td>Deep-Sea Drive</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>Amor Kana_GlassOnTheWater</td> <td>Thoughtful Tatsumiya</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>MusicEgg_LampInOneHand</td> <td>Preparing for Tonight</td> <td>Music Egg</td></tr>
+<tr align="center"><td>Amor Kana_NightOfTheWorldTree</td> <td>Star Isle at Night</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>Senses Circuit_Wish</td> <td>Star Tree</td> <td>Senses Circuit</td></tr>
+<tr align="center"><td>Amor Kana_ThoughtsOnAMoonlitNight</td> <td>I Got It Just For You</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>Cnoc_Ruins</td> <td>Deep Trouble</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_Emergency</td> <td>Emergency Shortcut</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_BlackForest</td> <td>Enter Princess Tosatsu</td> <td>Cnoc</td></tr>
+<tr align="center"><td>MaouDamashii_Event18</td> <td>That's Not the King!</td> <td>Maou Damashii</td></tr>
+<tr align="center"><td>MaouDamashii_Boss02</td> <td>Versus Vendetto</td> <td>Maou Damashii</td></tr>
+<tr align="center"><td>Cnoc_Aporia</td> <td>Laurentia Encounter</td> <td>Cnoc</td></tr>
+<tr align="center"><td>MuzMuz_ImpromptuForMySlumber</td> <td>Versus Laurentia</td> <td>MusMus</td></tr>
+<tr align="center"><td>Cnoc_IntoTheUnknown</td> <td>Ver Million</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_RunTheWarbeatWasteland</td> <td>Versus Ver</td> <td>Cnoc</td></tr>
+<tr align="center"><td>MaouDamashii_Boss03</td> <td>Versus Merc Trio</td> <td>Maou Damashii</td></tr>
+<tr align="center"><td>Cnoc_Infection</td> <td>On the Offense</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_SmallFryInvasion</td> <td>Run from the Rabbits</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_AutumnRainFall</td> <td>Versus Hofuru</td> <td>Cnoc</td></tr>
+<tr align="center"><td>MaouDamashii_Boss05</td> <td>Versus Tosatsu</td> <td>Maou Damashii</td></tr>
+<tr align="center"><td>MaouDamashii_Boss04</td> <td>Versus Artamos</td> <td>Maou Damashii</td></tr>
+<tr align="center"><td>MusicEgg_MagicCronesResidence</td> <td>Artamos the Lame</td> <td>Music Egg</td></tr>
+<tr align="center"><td>Amor Kana_UndyingMoon</td> <td>Umi and Satsu</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>Hagall_inventionear(Piano)</td> <td>It Was Meee!</td> <td>Hagall</td></tr>
+<tr align="center"><td>CAMeLIA_Dance of death</td> <td>Ambassador of the Sea of Death</td> <td>*CAMeLIA*</td></tr>
+<tr align="center"><td>CAMeLIA_GentleNightmare</td> <td>Sorrowful Remembrance</td> <td>*CAMeLIA*</td></tr>
+<tr align="center"><td>Cnoc_BizarreHunt</td> <td>Sea of Death Prison</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_BloodAndRust</td> <td>Deeper Old Sea</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_Deceit</td> <td>Sal, You Can't...</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_Chasing</td> <td>Sal Chase</td> <td>Cnoc</td></tr>
+<tr align="center"><td>CAMeLIA_Moonlight</td> <td>Princess Mikotsu</td> <td>*CAMeLIA*</td></tr>
+<tr align="center"><td>CAMeLIA_MarineBlue</td> <td>Drifting into Dreams</td> <td>*CAMeLIA*</td></tr>
+<tr align="center"><td>CAMeLIA_GraySnow</td> <td>Just a Dream...?</td> <td>*CAMeLIA*</td></tr>
+<tr align="center"><td>CAMeLIA_like a machine</td> <td>JuS t a DrEA m</td> <td>*CAMeLIA*</td></tr>
+<tr align="center"><td>Cnoc_Gray</td> <td>where I belo ng</td> <td>Cnoc</td></tr>
+<tr align="center"><td>CAMeLIA_Arrest</td> <td>Sea of Death Denizens</td> <td>*CAMeLIA*</td></tr>
+<tr align="center"><td>Cnoc_StagnantWater</td> <td>Eroded Path</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_DemonsDisposition</td> <td>Sea of Death Enemy</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_ItsAllOver</td> <td>Versus Squid</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_JustABadFeeling</td> <td>Eroded Path 2</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_Migraine</td> <td>Versus Old</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_DeadEnd</td> <td>Eroded Path to Castle</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_ITrustedYou</td> <td>Eroded Sea God Castle</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_Nightmare</td> <td>Versus Sheep</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_RepeatingPulse</td> <td>Eroded Sea God Castle 2</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_FinalDay</td> <td>Versus Tsuribari &amp; Stella</td> <td>Cnoc</td></tr>
+<tr align="center"><td>MusicEgg_ClockSpinning</td> <td>The Great Witch</td> <td>Music Egg</td></tr>
+<tr align="center"><td>Senses Circuit_UneasinesS</td> <td>Make You Mine</td> <td>Senses Circuit</td></tr>
+<tr align="center"><td>CAMeLIA_silent eve</td> <td>Normal End</td> <td>*CAMeLIA*</td></tr>
+<tr align="center"><td>Hagall_TreeShadeWaltz</td> <td>This Blue Sea</td> <td>Hagall</td></tr>
+<tr align="center"><td>Amor Kana_HolyConcert</td> <td>It's Not Your Fault</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>Amor Kana_LoveSakura</td> <td>Delivered Back</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>Amor Kana_TearfulMoon</td> <td>You Made It Back</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>Senses Circuit_loop_86</td> <td>Bonus Room</td> <td>Senses Circuit</td></tr>
+<tr align="center"><td>MaouDamashii_Piano1</td> <td>Wadanohara's Piano</td> <td>Maou Damashii</td></tr>
+<tr align="center"><td>MaouDamashii_Event17</td> <td>Octokiss!</td> <td>Maou Damashii</td></tr>
+<tr align="center"><td>MusicEgg_MaidsWorkDiary</td> <td>I Love to Stroll</td> <td>Music Egg</td></tr>
+<tr align="center"><td>Senses Circuit_MemorysSigh</td> <td>Sorcerer's Familiar</td> <td>Senses Circuit</td></tr>
+<tr align="center"><td>MusMus_Honeymoon</td> <td>Mercenary Aftermath</td> <td>MusMus</td></tr>
+<tr align="center"><td>Amor Kana_ColorfulDestination</td> <td>Cherry's Secret</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>Amor Kana_OceanOfTheHeart(MusicBox)</td> <td>To My Daughter</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>Amor Kana_FatesLamentation</td> <td>A Father's Sacrifice</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>MusicEgg_Bud</td> <td>Album</td> <td>Music Egg</td></tr>
+<tr align="center"><td>MaouDamashii_Town12b</td> <td>Bloody Radio</td> <td>Maou Damashii</td></tr>
+<tr align="center"><td>MaouDamashii_Theme08</td> <td>The Holy Radio Studio</td> <td>Maou Damashii</td></tr>
+<tr align="center"><td>Senses Circuit_JackOLantern</td> <td>Carnival Teaser</td> <td>Senses Circuit</td></tr>
+<tr align="center"><td>CAMeLIA_LoiteringAlice</td> <td>Wonderland Teaser</td> <td>*CAMeLIA*</td></tr>
+<tr align="center"><td>Cnoc_Bloodstain</td> <td>Unused</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_DesertOnTheMoon</td> <td>Unused</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_Heartbreak</td> <td>Unused</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_WitchsFrolic</td> <td>Unused</td> <td>Cnoc</td></tr>
+<tr align="center"><td>MusicEgg_BreakingHeart</td> <td>Unused</td> <td>Music Egg</td></tr>
+<tr align="center"><td>On-Jin_BGM-LoopVarietyR01</td> <td>Unused</td> <td>On-Jin</td></tr>
+</tbody></table>
+</div>
+
+<div id="alphabetical" style="display: none">
+<br>
+<table id="youtwit" width="700px">
+<tbody><tr align="center"><td colspan="3"><a href="javascript:%20sortChronological()"><b>Sorted Alphabetically</b></a></td></tr>
+<tr align="center"><td><b>Filename</b></td> <td><b>Usage</b></td> <td><b>Source</b></td></tr>
+<tr align="center"><td>Amor Kana_ColorfulDestination</td> <td>Cherry's Secret</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>Amor Kana_DancingFairies</td> <td>Path to Deepsea Town</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>Amor Kana_DryingOutDreams</td> <td>Path to the Castle</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>Amor Kana_FatesLamentation</td> <td>A Father's Sacrifice</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>Amor Kana_FleetingDreamInFog</td> <td>Moonstones</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>Amor Kana_GapOfTime</td> <td>Never Feeling Lonely</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>Amor Kana_Gardenia</td> <td>The Right to Choose</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>Amor Kana_GlassOnTheWater</td> <td>Thoughtful Tatsumiya</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>Amor Kana_HolyConcert</td> <td>It's Not Your Fault</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>Amor Kana_HolyNightOfHeavySnow</td> <td>Sea Kingdom Gate</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>Amor Kana_LifeInDeepGreen</td> <td>Because I Want To</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>Amor Kana_LoneWorld</td> <td>Music Box</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>Amor Kana_LoveSakura</td> <td>Delivered Back</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>Amor Kana_ma meno</td> <td>Deep-Sea Drive</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>Amor Kana_MercuryTown</td> <td>Sea God Castle</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>Amor Kana_NightOfTheWorldTree</td> <td>Star Isle at Night</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>Amor Kana_NORNS</td> <td>Sea of Stars</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>Amor Kana_OblivionOfTheFullMoon</td> <td>...No Treasure?</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>Amor Kana_OceanOfTheHeart(MusicBox)</td> <td>To My Daughter</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>Amor Kana_OceanOfTheHeart</td> <td>Wadanohara's Ocarina</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>Amor Kana_PaleMoonDrip</td> <td>Under the Crescent Moon</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>Amor Kana_Skyblue</td> <td>My Dear Girl</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>Amor Kana_SkyBlueRain</td> <td>Like Your Father</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>Amor Kana_TearfulMoon</td> <td>You Made It Back</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>Amor Kana_ThoughtsOnAMoonlitNight</td> <td>I Got It Just For You</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>Amor Kana_ToTheAngelsLostTheirWings(Crystal)</td> <td>Princess's Seat</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>Amor Kana_UndyingMoon</td> <td>Umi and Satsu</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>Amor Kana_WindowLight</td> <td>Deep Sea of Stars</td> <td>Amor Kana</td></tr>
+<tr align="center"><td>CAMeLIA_Arrest</td> <td>Sea of Death Denizens</td> <td>*CAMeLIA*</td></tr>
+<tr align="center"><td>CAMeLIA_Dance of death</td> <td>Ambassador of the Sea of Death</td> <td>*CAMeLIA*</td></tr>
+<tr align="center"><td>CAMeLIA_DinnerParty</td> <td>Opening / Samekichi's Resolve</td> <td>*CAMeLIA*</td></tr>
+<tr align="center"><td>CAMeLIA_GentleNightmare</td> <td>Sorrowful Remembrance</td> <td>*CAMeLIA*</td></tr>
+<tr align="center"><td>CAMeLIA_GraySnow</td> <td>Just a Dream...?</td> <td>*CAMeLIA*</td></tr>
+<tr align="center"><td>CAMeLIA_KakomeKakome</td> <td>Tosatsu Kingdom</td> <td>*CAMeLIA*</td></tr>
+<tr align="center"><td>CAMeLIA_like a machine</td> <td>JuS t a DrEA m</td> <td>*CAMeLIA*</td></tr>
+<tr align="center"><td>CAMeLIA_LoiteringAlice</td> <td>Wonderland Teaser</td> <td>*CAMeLIA*</td></tr>
+<tr align="center"><td>CAMeLIA_MarineBlue</td> <td>Drifting into Dreams</td> <td>*CAMeLIA*</td></tr>
+<tr align="center"><td>CAMeLIA_Moonlight</td> <td>Princess Mikotsu</td> <td>*CAMeLIA*</td></tr>
+<tr align="center"><td>CAMeLIA_ShadowChaser</td> <td>The Two Princesses</td> <td>*CAMeLIA*</td></tr>
+<tr align="center"><td>CAMeLIA_silent eve</td> <td>Normal End</td> <td>*CAMeLIA*</td></tr>
+<tr align="center"><td>Cnoc_Aporia</td> <td>Laurentia Encounter</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_AutumnRainFall</td> <td>Versus Hofuru</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_BirdCage</td> <td>Hydrangea Isle</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_BizarreHunt</td> <td>Sea of Death Prison</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_BlackForest</td> <td>Enter Princess Tosatsu</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_BloodAndRust</td> <td>Deeper Old Sea</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_Bloodstain</td> <td>Unused</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_Chasing</td> <td>Sal Chase</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_Children</td> <td>Tarako</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_Confrontation</td> <td>Versus Orca</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_CuriousSolidarity</td> <td>Violent Orca</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_DeadEnd</td> <td>Eroded Path to Castle</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_Deceit</td> <td>Sal, You Can't...</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_DemonsDisposition</td> <td>Sea of Death Enemy</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_DesertOnTheMoon</td> <td>Unused</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_DQesqueContinent</td> <td>Underwater Cave</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_Emergency</td> <td>Emergency Shortcut</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_EndlessPlain</td> <td>Island Cave</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_FinalDay</td> <td>Versus Tsuribari &amp; Stella</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_FloatingArcadia(Piano)</td> <td>Lonely Isle</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_Gray</td> <td>where I belo ng</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_Heartbreak</td> <td>Unused</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_HollowPath</td> <td>Coral Path</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_Infection</td> <td>On the Offense</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_IntoTheUnknown</td> <td>Ver Million</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_ITrustedYou</td> <td>Eroded Sea God Castle</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_ItsAllOver</td> <td>Versus Squid</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_JustABadFeeling</td> <td>Eroded Path 2</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_MadScientist</td> <td>Versus Bunny Soldiers</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_Migraine</td> <td>Versus Old</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_Nightmare</td> <td>Versus Sheep</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_NostalgicSea(PianoVer)</td> <td>Wadanohara's Piano</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_Ocean</td> <td>Deepsea Town</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_Prison</td> <td>Successful Plan</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_PursuedJourney</td> <td>Coral Sea</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_RepeatingPulse</td> <td>Eroded Sea God Castle 2</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_ReverseRoom</td> <td>Bunny Soldiers</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_RingingEars</td> <td>What Am I Forgetting</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_Ruins</td> <td>Deep Trouble</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_RunTheWarbeatWasteland</td> <td>Versus Ver</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_SmallFryInvasion</td> <td>Run from the Rabbits</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_StagnantWater</td> <td>Eroded Path</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_StarvedMan</td> <td>Versus Samekichi</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_Strategem</td> <td>Hired Mercenary</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_TimeMarchesOn</td> <td>Old Sea</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_TownBustle</td> <td>Rainbow Isle</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_WitchsFrolic</td> <td>Unused</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Cnoc_YawlMovesOn</td> <td>Windmill Isle</td> <td>Cnoc</td></tr>
+<tr align="center"><td>Hagall_EccentricWitchsShop</td> <td>Chlomaki</td> <td>Hagall</td></tr>
+<tr align="center"><td>Hagall_FurtherThanTheMoon</td> <td>Star Isle</td> <td>Hagall</td></tr>
+<tr align="center"><td>Hagall_inventionear(Piano)</td> <td>It Was Meee!</td> <td>Hagall</td></tr>
+<tr align="center"><td>Hagall_RustedChain</td> <td>The Sea Witch</td> <td>Hagall</td></tr>
+<tr align="center"><td>Hagall_TreeShadeWaltz(Jingle)</td> <td>Intermission</td> <td>Hagall</td></tr>
+<tr align="center"><td>Hagall_TreeShadeWaltz</td> <td>This Blue Sea</td> <td>Hagall</td></tr>
+<tr align="center"><td>MaouDamashii_Boss02</td> <td>Versus Vendetto</td> <td>Maou Damashii</td></tr>
+<tr align="center"><td>MaouDamashii_Boss03</td> <td>Versus Merc Trio</td> <td>Maou Damashii</td></tr>
+<tr align="center"><td>MaouDamashii_Boss04</td> <td>Versus Artamos</td> <td>Maou Damashii</td></tr>
+<tr align="center"><td>MaouDamashii_Boss05</td> <td>Versus Tosatsu</td> <td>Maou Damashii</td></tr>
+<tr align="center"><td>MaouDamashii_Event05</td> <td>Battle 2</td> <td>Maou Damashii</td></tr>
+<tr align="center"><td>MaouDamashii_Event17</td> <td>Octokiss!</td> <td>Maou Damashii</td></tr>
+<tr align="center"><td>MaouDamashii_Event18</td> <td>That's Not the King!</td> <td>Maou Damashii</td></tr>
+<tr align="center"><td>MaouDamashii_Event31</td> <td>Game Over</td> <td>Maou Damashii</td></tr>
+<tr align="center"><td>MaouDamashii_Event37</td> <td>Versus Flippin' Birds</td> <td>Maou Damashii</td></tr>
+<tr align="center"><td>MaouDamashii_Piano1</td> <td>Wadanohara's Piano</td> <td>Maou Damashii</td></tr>
+<tr align="center"><td>MaouDamashii_Theme08</td> <td>The Holy Radio Studio</td> <td>Maou Damashii</td></tr>
+<tr align="center"><td>MaouDamashii_Town12b</td> <td>Bloody Radio</td> <td>Maou Damashii</td></tr>
+<tr align="center"><td>MaouDamashii_Village08</td> <td>Nekoyama</td> <td>Maou Damashii</td></tr>
+<tr align="center"><td>MusicEgg_AllAlone</td> <td>Miyura</td> <td>Music Egg</td></tr>
+<tr align="center"><td>MusicEgg_BreakingHeart</td> <td>Unused</td> <td>Music Egg</td></tr>
+<tr align="center"><td>MusicEgg_Bud</td> <td>Album</td> <td>Music Egg</td></tr>
+<tr align="center"><td>MusicEgg_CandySong</td> <td>Banquet</td> <td>Music Egg</td></tr>
+<tr align="center"><td>MusicEgg_ClockSpinning</td> <td>The Great Witch</td> <td>Music Egg</td></tr>
+<tr align="center"><td>MusicEgg_HappyDays</td> <td>Rainbow!</td> <td>Music Egg</td></tr>
+<tr align="center"><td>MusicEgg_Himari</td> <td>New Clothes</td> <td>Music Egg</td></tr>
+<tr align="center"><td>MusicEgg_LampInOneHand</td> <td>Preparing for Tonight</td> <td>Music Egg</td></tr>
+<tr align="center"><td>MusicEgg_LittleJoys</td> <td>Samekichi and the Apples</td> <td>Music Egg</td></tr>
+<tr align="center"><td>MusicEgg_MagicCronesResidence</td> <td>Artamos the Lame</td> <td>Music Egg</td></tr>
+<tr align="center"><td>MusicEgg_MaidsWorkDiary</td> <td>I Love to Stroll</td> <td>Music Egg</td></tr>
+<tr align="center"><td>MusicEgg_Skirmish</td> <td>Versus Helica</td> <td>Music Egg</td></tr>
+<tr align="center"><td>MusicEgg_SuspiciousHealersWorkshop</td> <td>A Strolling Orca</td> <td>Music Egg</td></tr>
+<tr align="center"><td>MusicEgg_ThePreparingPeople</td> <td>Apple Isle</td> <td>Music Egg</td></tr>
+<tr align="center"><td>MusicEgg_UnderTheSameSky</td> <td>Wadanohara's Piano</td> <td>Music Egg</td></tr>
+<tr align="center"><td>MusicEgg_WaltzOfDestiny</td> <td>Title / Reunion</td> <td>Music Egg</td></tr>
+<tr align="center"><td>MusicEgg_WondrousTime</td> <td>Ride on Samekichi</td> <td>Music Egg</td></tr>
+<tr align="center"><td>MusicEgg_YoullBeLate</td> <td>Normal Battle</td> <td>Music Egg</td></tr>
+<tr align="center"><td>MusMus_Honeymoon</td> <td>Mercenary Aftermath</td> <td>MusMus</td></tr>
+<tr align="center"><td>MuzMuz_ImpromptuForMySlumber</td> <td>Versus Laurentia</td> <td>MusMus</td></tr>
+<tr align="center"><td>On-Jin_BGM-LoopSuspenseR02</td> <td>Suspense</td> <td>On-Jin</td></tr>
+<tr align="center"><td>On-Jin_BGM-LoopVarietyR01</td> <td>Unused</td> <td>On-Jin</td></tr>
+<tr align="center"><td>Senses Circuit_JackOLantern</td> <td>Carnival Teaser</td> <td>Senses Circuit</td></tr>
+<tr align="center"><td>Senses Circuit_loop_86</td> <td>Bonus Room</td> <td>Senses Circuit</td></tr>
+<tr align="center"><td>Senses Circuit_MemorysSigh</td> <td>Sorcerer's Familiar</td> <td>Senses Circuit</td></tr>
+<tr align="center"><td>Senses Circuit_SunbeamSpot-PianoVer-</td> <td>Wadanohara's Piano</td> <td>Senses Circuit</td></tr>
+<tr align="center"><td>Senses Circuit_UneasinesS</td> <td>Make You Mine</td> <td>Senses Circuit</td></tr>
+<tr align="center"><td>Senses Circuit_Wish</td> <td>Star Tree</td> <td>Senses Circuit</td></tr>
+</tbody></table>
+</div>
+
+</div>
+
+<br><hr><br>
+
+<a href="http://vgperson.com/games/">Please, always remain who you are.</a>
+
+</div>
+
+
+</body></html>
