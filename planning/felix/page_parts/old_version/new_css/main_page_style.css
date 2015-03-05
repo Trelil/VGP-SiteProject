@@ -1,0 +1,159 @@
+/***
+ * Header part
+ ***/
+
+.main_header_wrapper {
+	margin : 0 0 100px 0;
+	padding : 20px;
+	background-color : black;
+}
+.main_header_wrapper .header {
+	color : #FFF;
+	font-size : 32px;
+}
+.main_header_wrapper .slogan {
+	color : #FFF;
+	margin : 30px 0 10px 20px;
+}
+
+/***
+ * Body part
+ ***/
+
+.main_body_wrapper {
+	display : block;
+	margin : 0 auto;
+	padding : 5px;
+	max-width : 600px;
+}
+
+	/* Slot machine */
+	
+	.slot_machine {
+		padding : 2px;
+		background-color : #000;
+	}
+	.slot_machine .header {
+		margin : 0;
+		padding : 30px;
+		color : #FFF;
+		font-size : 26px;
+		text-align : center;
+	}
+	.slot_button {
+		display : block;
+		margin : 4px auto;
+		padding : 0 60px;
+		border : none;
+		font-size : 18px;
+	}
+	.slot_button.up {
+		border-top-left-radius : 10px;
+		border-top-right-radius : 10px;
+	}
+	.slot_button.down {
+		border-bottom-left-radius : 10px;
+		border-bottom-right-radius : 10px;
+	}
+	.slot_machine .entries {
+		background-color : #FFF;
+		margin : 0 20px;
+		max-height : 232px;
+		overflow : hidden;
+	}
+	.slot_machine .entries .list {
+		overflow : hidden;
+	}
+	.slot_machine .entries .list .item {
+		font-size : 32px;
+		padding : 50px;
+		list-style : none;
+		text-align : center;
+	}
+	.slot_machine .entries .list .first {
+		
+	}
+	.slot_machine .entries .list .last {
+		
+	}
+	
+	/* Content */
+	
+	.content {
+		
+	}
+	.content .header {
+		display : block;
+		margin : 10px 0;
+		padding : 40px 20px;
+		background-color : #000;
+		color : #FFF;
+		font-size : 32px;
+	}
+	.content .list {
+		margin : 0;
+		padding : 10px;
+	}
+	.content .list .item {
+		position : relative;
+		background-color : #000;
+		list-style : none;
+		margin-bottom : 100px;
+		padding : 2px;
+	}
+	.content .list .first {
+		
+	}
+	.content .list .last {
+		
+	}
+	.content .list .item .header {
+		font-size : 22px;
+		color : #FFF;
+	}
+	.content .list .item .description {
+		margin : 2px 8px;
+		padding : 40px 20px;
+		font-size : 18px;
+		background-color : #FFF;
+	}
+	.content .list .go {
+		margin : 0 auto;
+		padding : 2px;
+		background-color : #000;
+		color : #FFF;
+		font-size : 32px;
+		height : 36px;
+		line-height : 38px;
+		position : absolute;
+		right : 20px;
+		bottom : -17px;
+		left : 20px;
+		border : none;
+		cursor : pointer;
+	}
+	.content .list .go:hover {
+		background-color : #444;
+		transform : scale(1.1);
+	}
+	
+/***
+ * Footer part
+ ***/
+
+.main_footer_wrapper {
+	background-color : #000;
+}
+.main_footer_wrapper .list {
+	
+}
+.main_footer_wrapper .list .item {
+	display : inline-block;
+	list-style : none;
+}
+.main_footer_wrapper .list .first {
+	
+}
+.main_footer_wrapper .list .last {
+	
+}

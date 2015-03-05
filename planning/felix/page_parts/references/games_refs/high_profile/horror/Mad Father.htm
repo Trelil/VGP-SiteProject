@@ -1,0 +1,519 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>Mad Father</title>
+<link rel="stylesheet" type="text/css" href="Mad%20Father_files/stylish.css">
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-43682553-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<style type="text/css">
+body
+{
+background-color: #000000;
+color: #DDDDDD;
+font-size: 13px;
+width: 800px;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+
+a:link
+{
+color: #EE6666;
+}
+a:visited
+{
+color: #EE6666;
+}
+a:hover
+{
+color: #AA3333;
+}
+a:active
+{
+color: #AA3333;
+}
+
+img
+{
+image-rendering: auto;
+}
+
+hr
+{
+border: 0;
+background-color: #AA3333;
+height: 2px;
+margin-left: auto;
+}
+
+.hint
+{
+color: #000000;
+background-color: #000000;
+}
+
+.hint.show
+{
+color: #DDDDDD;
+background-color: transparent;
+}
+
+table#youtwit
+{
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+background-color: #222222;
+border-color: #999999;
+padding: 8px;
+}
+
+div#main
+{
+width: 800px;
+margin-left: auto;
+margin-right: auto;
+padding: 16px;
+background-color: #000000;
+border-style: solid;
+border-color: #AA3333;
+border-width: 2px;
+border-radius: 10px;
+}
+</style>
+<script language="JavaScript">
+var hshow = 0;
+var wshow = 0;
+var tshow = 0;
+
+function toggleHint()
+{
+	if(hshow == 0)
+	{
+		hshow = 1;
+		document.getElementById("hintguide").style.display = "inline";
+	}
+	else
+	{
+		hshow = 0;
+		document.getElementById("hintguide").style.display = "none";
+	}
+}
+function toggleWalk()
+{
+	if(wshow == 0)
+	{
+		wshow = 1;
+		document.getElementById("walkthrough").style.display = "inline";
+	}
+	else
+	{
+		wshow = 0;
+		document.getElementById("walkthrough").style.display = "none";
+	}
+}
+function toggleTracks()
+{
+	if(tshow == 0)
+	{
+		tshow = 1;
+		document.getElementById("tracks").style.display = "inline";
+	}
+	else
+	{
+		tshow = 0;
+		document.getElementById("tracks").style.display = "none";
+	}
+}
+
+var hintToggle = function()
+{
+	if (this.className.indexOf("show") == -1)
+		this.className += " show";
+}
+window.onload = function()
+{
+	var hintNodes = document.getElementsByClassName("hint");
+	for(var i = 0; i < hintNodes.length; i++)
+	        hintNodes[i].onclick = hintToggle;
+}
+</script>
+
+</head>
+<body>
+
+<div id="main">
+
+<img src="Mad%20Father_files/MadFatherTitle.png"><br><br>
+
+<b>Mad Father</b> is a freeware horror adventure game by <a href="http://novice2.web.fc2.com/game/mad/index.html">Sen (of Miscreant's Room)</a> made in WOLF RPG Editor.<br><br>
+
+<i>Aya Drevis is a young girl who lives in northern Germany.<br>
+Since her mother's passing, she's felt lonely living with just her father and his assistant Maria.<br>
+What's more, she knows her father's secret...</i><br><br>
+
+(I've also translated Sen's first game, <a href="http://vgperson.com/games/misao.htm">Misao</a>.)<br>
+
+<br><hr><br>
+
+<a href="http://www.mediafire.com/?66ojblfcxlc839b">Download Mad Father 1.09</a> | <a href="http://vgperson.com/games/MadFather109.zip">(Mirror)</a><br>
+(Please disregard if Chrome tells you the file is malicious; this is in error and beyond my control.)<br><br>
+
+<a href="http://rpgosx.tumblr.com/rpghub">RPGHub</a> is recommended to play on a Mac.<br>
+(Please report any issues with RPGHub to RPGOSX, not to me.)<br>
+
+<b>Note:</b> Sen has forbidden live-streaming and videos made for profit.<br>
+He also forbids putting event CGs as thumbnails, skipping the opening credits, and making walkthrough-focused videos.<br>
+
+<br><hr><br>
+
+<b>Troubleshooting</b><br><br>
+
+Please make sure to extract the game to its own folder instead of running directly from the ZIP file.<br>
+If you don't do so, any saves made will be lost the next time you run the game.<br>
+
+<br><hr><br>
+
+<b>Screenshots</b><br>
+<br>
+<table align="center">
+<tbody><tr align="center"><td><img src="Mad%20Father_files/MFScreen1.gif" style="width: 75%"><br>
+<img src="Mad%20Father_files/MFScreen2.gif" style="width: 75%"><br>
+<img src="Mad%20Father_files/MFScreen3.gif" style="width: 75%"></td></tr>
+</tbody></table>
+
+<br><hr style="width: 80%"><br>
+
+<b>Hint Guide</b><br><br>
+
+Below is a hint-based walkthrough that addresses places where you may get stuck.<br>
+Click or highlight the black boxes to show the spoiler text.<br>
+It also lists the locations of all 21 gems.<br>
+<br>
+<a href="javascript:%20toggleHint()">Hint Guide</a><br>
+<div id="hintguide" style="display: none">
+<br>
+<table id="youtwit" width="600px">
+<tbody><tr><td>
+<b>= After the Intro =</b><br><br>
+
+To get into the basement, you need a Lighter (filled with Lighter Oil) and Oil.<br><br>
+
+How do I get the Lighter?<br>
+<span class="hint">Push the stool in the Reception Room over to the 
+top-left dresser to get a Cutting Knife, then use that to open the taped
+ box in the Bathroom.</span><br><br>
+
+How do I get the Lighter Oil?<br>
+<span class="hint">Get the Lamp from the safe in the Bedroom (the hint 
+for the code is in the Archives), pull away the rug in the Kitchen, and 
+send Snowball through the small hole into the Storehouse.</span><br><br>
+
+How do I get the Oil?<br>
+<span class="hint">It's on the counter in the Kitchen.</span><br><br>
+
+<b>= B1F =</b><br><br>
+
+Total guess, but is there something I need to do for the true ending here?<br>
+<span class="hint">Er... yes. You need to check on Maria after the 
+cutscene in the Laboratory twice for an item, then find where to use it 
+before the ending.</span><br><br>
+
+How do I go further than the Open Room?<br>
+<span class="hint">Get the Ladder there and use it in the Attic. Push the movable pot off the edge to get the Mini Chainsaw.</span><br><br>
+
+How do I help the girl in the cell?<br>
+<span class="hint">You need the Eyeball Bottle from the Taxidermy Room, 
+as well as the Wood Bucket also found there. You can't give the bottle 
+to her directly, so...</span><br>
+<span class="hint">Go to the Reception Room on 1F and go behind the 
+painting to the Courtyard. Fill the Wood Bucket with water and bring it 
+to put out the fire in the Reception Room.</span><br><br>
+
+<b>= B2F =</b><br><br>
+
+How do I get the key out of the toilet?<br>
+<span class="hint">Get the Forceps from chainsawing a wooden crate in the B2F Laboratory, use them, and wash the key in the bucket.</span><br><br>
+
+How do I feed the boy in the Cafeteria?<br>
+<span class="hint">Cut down the hunk of ham with the chainsaw, fry it, and give it to him on a plate.</span><br><br>
+
+What do I do in the Trick Room?<br>
+<span class="hint">Make the two sides match. (Not mirrored, that's a different game.)</span><br><br>
+
+What do I do in the diary rooms?<br>
+<span class="hint">Simply try to recreate what's described in the entries using whatever's available.</span><br><br>
+
+<b>= B3F =</b><br><br>
+
+How do I dodge the rats?<br>
+<span class="hint">Just grab the Door Key in the middle and retreat. You can't force your way all the way through.</span><br><br>
+
+How do I get Mom's Perfume back?<br>
+<span class="hint">Push the shelf in the room on the right to the left to find a crack in the wall. Chainsaw it.</span><br><br>
+
+What do I do in the Guest Rooms?<br>
+<span class="hint">Reopen the fourth door from the left after it closes.
+ Run away from the zombie into that room. Sleep on the bed to make it 
+move. Bait the zombie into the fifth room and pull the pot back as you 
+retreat.<br>
+Lastly, run out and close the door to the fifth room (try to walk through and it'll do it automatically) to trap the zombie.</span><br><br>
+
+<b>= Tunnels =</b><br><br>
+
+How do I get past the patrolling zombie?<br>
+<span class="hint">Pull the plank and push a sandbag on it to weigh it down. Chainsaw the chandelier when the zombie is underneath.</span><br><br>
+
+What do I do with the mandrake?<br>
+<span class="hint">You need Earplugs to avoid dying. Smash the cracked pot in the Cultivation Room with the Hammer to get some.</span><br><br>
+
+And then what?<br>
+<span class="hint">Take it with you to the Dead End and place it in the 
+little niche in the rocks to kill (?) the dog. Use the Scalpel on the 
+dog to get the key back.</span><br><br>
+
+<b>= Endgame =</b><br><br>
+
+Choosing to <span class="hint">"Grant mom's wish"</span> leads to a bad ending.<br><br>
+
+Choosing to <span class="hint">"Save father"</span> leads to a potentially better ending.<br>
+If you haven't fulfilled a certain requirement, you're forced onto another bad ending.<br>
+If you have, you have the option to get that or the true ending.<br><br>
+
+Collecting all 21 gems gets you an extra scene after the true ending, after which the Gallery is unlocked.<br><br>
+
+<b>= Gem Locations =</b><br><br>
+
+<i>Found Normally</i><br>
+1. 2F Nursery (Required)<br>
+2. Entrance Hall<br>
+3. 1F Kitchen<br>
+4. Attic<br>
+5. 1F Cafeteria<br>
+6. Courtyard<br>
+7. 2F West Passage Hidden Room<br>
+<span class="hint">(Watch where the crawling corpse goes)</span><br>
+8. 2F Doll Room<br>
+9. B1F Cultivation Room<br>
+10. B1F Open Room<br>
+11. B1F Passage<br>
+12. B2F Passage<br>
+13. Tunnel Hidden Passage (from B2F Jail)<br>
+14. Tunnel Big Passage<br>
+15. Tunnel Cultivation Room<br><br>
+
+<i>Special Events</i><br>
+16. See event between mother and daughter subjects in 2F Bedroom<br>
+<span class="hint">(Get the Pendant in Archives and use it in Bedroom)</span><br>
+17. Fulfill a requirement in B1F Corpse Room<br>
+<span class="hint">(Lead body to head)</span><br>
+18. Give the eyeless girl in B1F Hall eyes<br>
+<span class="hint">(Part of the plot, dummy)</span><br>
+19. Fulfill a requirement in B2F Laboratory<br>
+<span class="hint">(Use the chainsaw to let the subject run loose)</span><br>
+20. Free the man in the B2F Jail<br>
+<span class="hint">(Go through the optional caves from the upper-left cell for the key)</span><br>
+21. Help the stuffed dog in the left B3F Private Room<br>
+<span class="hint">(Get a bone from a skeleton and put it in its mouth)</span>
+</td></tr>
+</tbody></table>
+</div>
+
+<br><hr><br>
+
+<b>Walkthrough</b><br><br>
+
+If the hint guide isn't enough, here's a more complete walkthrough.<br>
+<br>
+<a href="javascript:%20toggleWalk()">Walkthrough</a><br>
+<div id="walkthrough" style="display: none">
+<br>
+<table id="youtwit" width="600px">
+<tbody><tr><td>
+<b>= After the Intro =</b><br><br>
+
+Go into the Nursery and take Snowball. Go into the Bedroom (left of the 
+Nursery) and leave, then come back in to get the Archives Key.<br><br>
+
+Go west across the Entrance Hall to the 2F West Passage. Go into the 
+Archives and look through the shelves for the Code Memo. Make sure to 
+read The Flame Egg.<br><br>
+
+Use the note's hints to figure out the code for the safe in the Bedroom [7482], then open it for the Lamp and Mom's Perfume.<br><br>
+
+In the Reception Room (accessed through left door in Entrance Hall), 
+push the stool over to the top-left dresser and stand on it to get the 
+Cutting Knife.<br><br>
+
+Go to the Bathroom (left of the Reception Room) and get the Cafeteria 
+Key. Open the taped box with the Cutting Knife to get the Empty Lighter.<br><br>
+
+Go to the Kitchen (through center door in the Entrance Hall). Get the Oil on the counter.<br><br>
+
+With the Lamp from the safe, go into the door under the Kitchen rug. 
+Send Snowball into the hole in Outside Storehouse to get the Lighter 
+Oil. Fill the Empty Lighter with it.<br><br>
+
+Go into the door on the right of the Entrance Hall to reach the basement stairs. Burn the monster with the Lighter and Oil.<br><br>
+
+<b>= B1F =</b><br><br>
+
+Get the Wood Bucket and the Eyeball Bottle in the Taxidermy Room.<br><br>
+
+[NOTE: You need to check on Maria after the cutscene in the Laboratory 
+twice for an item important to getting the true ending. Make sure to 
+find out where to use it before the ending.]<br><br>
+
+Proceed to a dead end. Get the Ladder in the Open Room.<br><br>
+
+Return to 2F and go all the way right to the Attic. Use the Ladder to 
+get up, then push the movable pot off the edge to break it open and get 
+the Mini Chainsaw.<br><br>
+
+Backtrack to the Open Room and use the chainsaw to smash the barrels in the way.<br><br>
+
+When you find the crying girl in the cell, make sure to (attempt to) show her the Eyeball Bottle.<br><br>
+
+Go to the Reception Room on 1F. Check the painting and move it aside. In
+ the Courtyard, use the Wood Bucket at the water and carry it to put out
+ the fire in the Reception Room. Drop the Eyeball Bottle down the hole 
+in the fireplace.<br><br>
+
+Return to the cell and let the girl come out, then pull the lever inside the cell to open the door.<br><br>
+
+After finding that the corridor loops, go left and talk to the woman to 
+get her to follow you. Once she's gone, the corridor will no longer 
+loop.<br><br>
+
+<b>= B2F =</b><br><br>
+
+Go where the old man points: right through the wall. Chainsaw the wooden crate in the B2F Laboratory to get the Forceps.<br><br>
+
+Go to the Toilet (bottom-right room from B2F Passage). Use the Forceps 
+to get the Rusty Key out of the toilet and wash it in the bucket. Use it
+ to open the door in B2F Passage.<br><br>
+
+On your second visit to the Cafeteria, cut down the hunk of ham with the
+ chainsaw. Fry the Raw Ham and give it to the boy to get a Napkin.<br><br>
+
+In the Trick Room, make the two sides match by:<br>
+1) Flipping the painting on the right turnways.<br>
+2) Taking the spear from the soldier on the right and giving it to the armor.<br>
+3) Pushing the armor on the right left a space.<br>
+4) Taking half the flowers (AKA the Bouquet) from the left vase and putting them in the right.<br>
+5) Moving the king from the upper room into position, then decapitating him with the chainsaw.<br><br>
+
+In the first diary room, simply push the baby toward the mother.<br>
+In the second diary room, pick up the two animals, putting each in the dresser, and push the mother out the door.<br>
+In the third diary room, pick up the Kitchen Knife from the counter, 
+give it to the boy, and wipe the mother's face with the Napkin.<br>
+In the fourth diary room, decapitate the girl with the chainsaw.<br><br>
+
+<b>= B3F =</b><br><br>
+
+In the hallway of rats, grab the Door Key in the middle and retreat. (You can't force your way all the way through.)<br><br>
+
+Go into the room on the right, smash the barrels, and push the shelf 
+left to find a crack in the wall. Chainsaw it to get back Mom's Perfume.
+ Apply it to get past the rats.<br><br>
+
+In the Guest Rooms, reopen the fourth door from the left after it 
+closes. Run away from the zombie into that room. Sleep on the bed to 
+make it move. Bait the zombie into the fifth room and pull the pot back 
+as you retreat.<br>
+Lastly, run out and close the door to the fifth room (try to walk through and it'll do it automatically) to trap the zombie.<br><br>
+
+Try to go through the door in B3F Hall, then take the Creepy Doll. Go back to B3F Passage to find a new path.<br><br>
+
+<b>= Tunnels =</b><br><br>
+
+Pull the Scalpel out of Coron in the Incinerator Room and try to open the door.<br><br>
+
+When you reach the zombie patrolling, go up the ladder when it's looking
+ away. Pull the plank and push a sandbag on it to weigh it down. 
+Chainsaw the chandelier when the zombie is underneath.<br><br>
+
+Get the Hammer in the area with the mad dog. Go to the Cultivation Room 
+and solve the tile puzzle to open the door. Use the Hammer to smash the 
+cracked pot to get the Earplugs.<br><br>
+
+Don't uproot the mandrake in the Cultivation Room, but do take it with 
+you. In the Dead End, place it in the little niche in the rocks to kill 
+(?) the dog and not you. Use the Scalpel on the dog to get the 
+Incinerator Key.<br><br>
+
+Go back to the Incinerator Room, open the door, and throw the Creepy 
+Doll into the fires of Mt. Drevis. Return to the door it was guarding on
+ B3F.<br><br>
+
+<b>= Endgame =</b><br><br>
+
+Choosing to "Grant mom's wish" leads to a bad ending.<br><br>
+
+Choosing to "Save father" leads to the potential true ending.<br>
+If you haven't read Maria's backstory in her room, you're forced onto another bad ending.<br>
+If you have, you get the option to help her. Check on her after she's 
+attacked, get the Bandage from the shelves, and use it on her.<br><br>
+
+Collecting all 21 gems gets you an extra scene after the true ending, after which the Gallery is unlocked.
+</td></tr>
+</tbody></table>
+</div>
+
+<br><hr style="width: 80%"><br>
+
+<b>Music</b><br><br>
+
+Below are all the songs in the game and their sources.<br>
+Note that there may be some spoilers in the track names.<br>
+<br>
+<a href="javascript:%20toggleTracks()">Song List</a><br>
+<div id="tracks" style="display: none">
+<br>
+<table id="youtwit" width="500px">
+<tbody><tr align="center"><td><b>Name</b></td> <td><b>Original Name</b></td> <td><b>Source Link</b></td></tr>
+<tr align="center"><td>Drevis Residence</td> <td>Tin Coffee Maker [Slow]</td> <td><a href="http://www.hmix.net/music/k/k6.mp3">Source</a></td></tr>
+<tr align="center"><td>Black Shadow</td> <td>Black Shadow 1 - Curious</td> <td><a href="http://www.hmix.net/music/z/z19.mp3">Source</a></td></tr>
+<tr align="center"><td>Psychopath</td> <td>Psychopath</td> <td><a href="http://www.senses-circuit.com/dlcount/dlcount.cgi?f=314_1">Source</a></td></tr>
+<tr align="center"><td>No One Here</td> <td>Desert of No One</td> <td><a href="http://amachamusic.chagasi.com/mp3/daremoinaisabaku.mp3">Source</a></td></tr>
+<tr align="center"><td>Warped World</td> <td>Exitless Forest</td> <td><a href="http://www.vita-chi.net/sec/voi/hora/bgm_noexit.mp3">Source</a></td></tr>
+<tr align="center"><td>Tension</td> <td>Loop #103</td> <td><a href="http://www.senses-circuit.com/dlcount/dlcount.cgi?f=352_1">Source</a></td></tr>
+<tr align="center"><td>Memory</td> <td>Starry Promenade</td> <td><a href="http://www.hmix.net/music/c/c7.mp3">Source</a></td></tr>
+<tr align="center"><td>Shudder</td> <td>Death's Axe</td> <td><a href="http://www.hmix.net/music/n/n30.mp3">Source</a></td></tr>
+<tr align="center"><td>Mystery Salesman</td> <td>Not To Be Trusted</td> <td><a href="http://www.hmix.net/music/n/n9.mp3">Source</a></td></tr>
+<tr align="center"><td>Love and Hate</td> <td>Love and Hate</td> <td><a href="http://amachamusic.chagasi.com/mp3/aitonikushimi.mp3">Source</a></td></tr>
+<tr align="center"><td>Madness</td> <td>Small Fugue</td> <td><a href="http://amachamusic.chagasi.com/mp3/shoufugue.mp3">Source</a></td></tr>
+<tr align="center"><td>Melody</td> <td>Tchaikovsky's Melody</td> <td><a href="http://amachamusic.chagasi.com/mp3/tchaikovsky.mp3">Source</a></td></tr>
+<tr align="center"><td>Light Left</td> <td>Light Left</td> <td><a href="http://amachamusic.chagasi.com/mp3/zantou.mp3">Source</a></td></tr>
+<tr align="center"><td>Old Doll</td> <td>Old Puppet</td> <td><a href="http://amachamusic.chagasi.com/mp3/furuiningyou.mp3">Source</a></td></tr>
+<tr align="center"><td>Singing Aya</td> <td>Greensleeves</td> <td><a href="http://www.vita-chi.net/sec/voi/hora/green.wav">Source</a></td></tr>
+<tr align="center"><td>Mad Father</td> <td>Tin Coffee Maker [Short]</td> <td><a href="http://www.hmix.net/music/k/k6.mp3">Source</a></td></tr>
+<tr align="center"><td>Game Over</td> <td>Silence of Despair</td> <td><a href="http://www.hmix.net/music/n/n27.mp3">Source</a></td></tr>
+</tbody></table>
+</div>
+
+<br><hr style="width: 80%"><br>
+
+Original Author: Sen (Miscreant's Room)<br>
+Site: <a href="http://novice2.web.fc2.com/game/mad/index.html">http://novice2.web.fc2.com/game/mad/index.html</a><br>
+Email: seeen*outlook.com (* to @)<br>
+
+<br><hr><br>
+
+<a href="http://vgperson.com/games/">That sounds made-up.</a>
+
+</div>
+
+
+</body></html>

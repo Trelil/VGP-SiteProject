@@ -1,0 +1,43 @@
+/****
+ * Header part
+ ****/
+
+.about_header_wrapper {
+	
+}
+.about_header_wrapper .header {
+	
+}
+.about_header_wrapper .sub_header {
+	
+}
+
+
+/****
+ * Body part
+ ****/
+
+.about_body_wrapper {
+	
+}
+
+/****
+ * Footer part
+ ****/
+
+.about_footer_wrapper {
+	background-color : #000;
+}
+.about_footer_wrapper .list {
+	
+}
+.about_footer_wrapper .list .item {
+	display : inline-block;
+	list-style : none;
+}
+.about_footer_wrapper .list .first {
+	
+}
+.about_footer_wrapper .list .last {
+	
+}

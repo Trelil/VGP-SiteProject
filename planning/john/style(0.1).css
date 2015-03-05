@@ -1,0 +1,26 @@
+    .listpage_body_wrapper .list .item{
+       text-align:center;
+    }    
+  
+   .listpage_body_wrapper .list .item a:nth-child(1){
+      margin:0;
+      width:100px;
+     position:absolute;
+     left:0px;
+     max-height:20px;
+     width:auto;
+
+   }
+/*list style
+  /drupal/node/58
+  subtitles
+*/
+
+
+
+.menu li{
+  outline:solid 1px black;
+}
+/*overall
+  menu header
+*/

@@ -1,0 +1,185 @@
+/****
+ * Header part
+ ****/
+@font-face {
+	font-family : "Cantarell";
+	src : url("font_b.ttf");
+}
+@font-face {
+	font-family : "Smythe";
+	src : url("font_a.ttf");
+}
+h1, h2, h3, h4, h5 {
+	font-family : "Cantarell";
+}
+h1 {
+	font-size : 32px;
+}
+h2 {
+	font-size : 28px;
+}
+h3 {
+	font-size : 26px;
+}
+h4 {
+	font-size : 24px;
+}
+h5 {
+	font-size : 20px;
+}
+p, a, li, ul, span, div {
+	font-family : "Smythe";
+	font-size : 14px;
+}
+* {
+	margin : 0;
+	padding : 0;
+
+}
+#header, #breadcrumb, #navigation, #main-content,
+#page-title, #footer, .panel-separator, .submitted {
+	display : none;
+}
+.section,
+.panel-2col-stacked .panel-col-top .inside,
+.panel-2col-stacked .panel-col-last .inside {
+	margin : 0;
+}
+html, body {
+	min-width : 100%;
+	min-height : 100%;
+}
+body {
+	background-image : url(bg.jpg);
+}
+.panels-flexible-region.panels-flexible-region-first.panels-flexible-region-last {
+	width : 100%;
+}
+
+
+.menu {
+	position : absolute;
+	display : block;
+	top : 72px;
+	padding : 10px 20px;
+	right : 20px;
+	left : 20px;
+	max-width : 1024px;
+}
+.menu li {
+	display : block;
+	list-style : none;
+	padding-top : 2px;
+	width : 25%;
+	margin : 0;
+	padding : 20px 0;
+	background-color : #6EB500;
+	float : left;
+}
+.menu li:hover {
+	background-color : #4D9300;
+}
+.menu .link {
+	display : block;
+	text-align : center;
+	font-size : 20px;
+	text-decoration : none;
+	color : #EEF;
+	font-family : "Cantarell";
+}
+
+
+.about_header_wrapper {
+	position : relative;
+	background-color : #000;
+	height : 200px;
+	color : #FFF;
+}
+.about_header_wrapper > .header {
+	position : absolute;
+	top : 0;
+	left : 0;
+	color : #FFF;
+	padding : 10px 20px;
+	margin : 0;
+	border : inset 4px #4D0367;
+	min-width : 50%;
+}
+.about_header_wrapper .sub_header {
+	position : absolute;
+	right : 0;
+	bottom : 0;
+	color : #FFF;
+	padding : 10px 20px;
+}
+.about_header_wrapper > .header,
+.about_header_wrapper {
+	background-image : linear-gradient(to bottom, #620583, #4D0367);
+}
+
+
+/****
+ * Body part
+ ****/
+
+.about_body_wrapper {
+	max-width : 900px;
+	margin : 0 auto;
+	background-color : #4D0367;
+	color : #FFE;
+}
+img {
+	display : block;
+	margin : 32px auto;
+}
+.about_body_wrapper h1 {
+	padding : 10px;
+	text-align : center;
+}
+.about_body_wrapper h1,
+.about_body_wrapper p {
+	display : block;
+	margin : 0 auto;
+	max-width : 320px;
+}
+.about_body_wrapper p {
+	margin-top : 10px;
+	padding : 10px;
+	background-color : rgba(220, 220, 100, 0.2);
+}
+
+/****
+ * Footer part
+ ****/
+
+.about_footer_wrapper {
+	background-color : #4D0367;
+	background-image : linear-gradient(to bottom, #4D0367, #620583);
+}
+.about_footer_wrapper .list {
+	display : block;
+	padding : 10px;
+	margin : 0 auto;
+}
+.about_footer_wrapper .list .item {
+	display : block;
+	list-style : none;
+	padding-top : 2px;
+	max-width : 256px;
+	margin : 0 auto;
+}
+.about_footer_wrapper .list .first {
+	
+}
+.about_footer_wrapper .list .last {
+	
+}
+.about_footer_wrapper a {
+	display : block;
+	text-align : center;
+	font-size : 20px;
+	text-decoration : none;
+	color : #EEF;
+	font-family : "Cantarell";
+	background-color : #6EB500;
+}

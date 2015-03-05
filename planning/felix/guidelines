@@ -1,0 +1,107 @@
+Den CMS som skall användas är:
+
+	DRUPAL v8
+
+Den moodboard som används är:
+
+	Blanding av alla moodboards
+
+Val av typsnitt
+
+	Rubriker:
+		
+		Google fonts:
+			
+			Cantarell
+			
+			<link href='http://fonts.googleapis.com/css?family=Cantarell:400,700italic' rel='stylesheet' type='text/css'>
+
+	Brödtext:
+	
+		Google fonts:
+			
+			Smythe
+			
+			<link href='http://fonts.googleapis.com/css?family=Smythe' rel='stylesheet' type='text/css'>
+
+Call to action:
+	
+	Primär (för allas fägseende)
+		
+		Orange		
+				
+	Sekundär:
+	
+		Röd
+	
+Färgschema:
+	
+	Lila: #9C42C0
+	Cyan: #438ABC
+	Orange: #FF9550
+	Röd: #FD181D
+
+Sidor som skall skapas:
+	
+	Huvudsida:
+		http://vgperson.com/
+	
+	Undersidor:
+		
+		###TRANSLATED STUFF###
+		
+		http://vgperson.com/lyrics.php
+			Call to action, välj en sång
+		
+		http://vgperson.com/games/
+			Call to action, välj ett spel
+		
+			Undersidor:
+			
+				Varje spel genre har en eget bildtema
+				Men alla underrubriker bygger på en generell design
+				
+				Endast de översatta spelens sidorna skall få
+				en under sida.
+			
+			Egnagjorda spel av VGPerson får en nedladdningslista
+	
+		Dessa använder LIST_MALLEN {
+			
+			Call to action, välj en länk
+			
+			http://vgperson.com/hachitweet.htm
+			http://vgperson.com/vocaltweet.php
+			http://vgperson.com/vocalinterview.php
+			http://vgperson.com/talesof2ch.htm
+			http://vgperson.com/other/subtitles.htm
+		}
+		
+		är alla listsidor och kan använda samma mall.
+	
+		###STUFF I MADE###---------------------------------------------------------
+		
+		http://vgperson.com/stories.php
+		
+		Dessa använder LIST_MALLEN {
+			
+			Call to action, välj en länk
+			
+			http://vgperson.com/shanko/
+			http://vgperson.com/joogle/
+			http://vgperson.com/golden/
+			http://vgperson.com/riviera/
+			http://vgperson.com/other/
+		}
+		
+		är alla listsidor och kan använda samma mall.
+		
+			Undersidor:
+				
+				Alla undersidor bygger på samma
+				koncept, kan använda samma mall.
+		
+		http://vgperson.com/about.htm
+			Call to action, kontakta mig.
+
+

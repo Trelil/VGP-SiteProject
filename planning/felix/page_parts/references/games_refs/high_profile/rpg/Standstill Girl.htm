@@ -1,0 +1,341 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>Standstill Girl</title>
+<link rel="stylesheet" type="text/css" href="Standstill%20Girl_files/stylish.css">
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-43682553-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<style type="text/css">
+body
+{
+background-color: #1F0800;
+background-image: url("/graphics/StandstillBG.png");
+color: #FFFFFF;
+font-size: 13px;
+width: 800px;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+
+a:link
+{
+color: #EADEA8;
+}
+a:visited
+{
+color: #EADEA8;
+}
+a:hover
+{
+color: #C9B56D;
+}
+a:active
+{
+color: #C9B56D;
+}
+
+img
+{
+image-rendering: auto;
+}
+
+hr
+{
+border: 0;
+background-color: #C9B56D;
+height: 2px;
+margin-left: auto;
+}
+
+.hint
+{
+color: #000000;
+background-color: #000000;
+}
+
+.hint.show
+{
+color: #FFFFFF;
+background-color: transparent;
+}
+
+table#youtwit
+{
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+background-color: #222222;
+border-color: #999999;
+padding: 8px;
+}
+
+div#main
+{
+width: 800px;
+margin-left: auto;
+margin-right: auto;
+padding: 16px;
+background-color: rgba(0, 0, 0, 0.2);
+border-style: solid;
+border-color: #C9B56D;
+border-width: 2px;
+border-radius: 10px;
+}
+</style>
+<script language="JavaScript">
+var eshow = 0;
+
+function toggleWalk()
+{
+	if(eshow == 0)
+	{
+		eshow = 1;
+		document.getElementById("walkthrough").style.display = "inline";
+	}
+	else
+	{
+		eshow = 0;
+		document.getElementById("walkthrough").style.display = "none";
+	}
+}
+
+var hintToggle = function()
+{
+	if (this.className.indexOf("show") == -1)
+		this.className += " show";
+}
+window.onload = function()
+{
+	var hintNodes = document.getElementsByClassName("hint");
+	for(var i = 0; i < hintNodes.length; i++)
+	        hintNodes[i].onclick = hintToggle;
+}
+</script>
+</head>
+<body>
+
+<div id="main">
+
+<img src="Standstill%20Girl_files/StandstillTitle.png"><br><br>
+
+<b>Standstill Girl</b> is a turn-based RPG made in RPG Maker 2000 by <a href="http://www.ab.auone-net.jp/%7Euta_m/">Sky Scraper Project</a>.<br>
+<br>
+<i>Alice is a girl who lives in the Land of Time, in the care of a boy named Tiska.<br>
+One day, when the hands of the Great Clock are mysteriously scattered, the Land of Life comes to a standstill.<br>
+Though it's Tiska's job as a warden of time to recover the hands, Alice can't help but be curious...</i><br>
+
+<br><hr><br>
+
+<a href="http://www.mediafire.com/?1yhw2g5mbhq1c1c">Download Standstill Girl</a> | <a href="http://vgperson.com/games/StandstillGirl.zip">(Mirror)</a><br>
+(Please disregard if Chrome tells you the file is malicious; this is in error and beyond my control.)<br><br>
+
+<a href="http://rpgosx.tumblr.com/rpghub">RPGHub</a> is recommended to play on a Mac.<br>
+(Please report any issues with RPGHub to RPGOSX, not to me.)<br>
+
+<br><hr><br>
+
+<b>Troubleshooting</b><br><br>
+
+Please make sure to extract the game to its own folder instead of running directly from the ZIP file.<br>
+If you don't do so, any saves made will be lost the next time you run the game.<br><br>
+
+If you get a DirectDraw error, right-click the EXE, go to Properties, Compatability, and try other compatibility modes.<br><br>
+
+Control issues ("automatically moving in a direction" or "no buttons 
+work") are inherent to RPG Maker and cannot be fixed permanently.<br>
+To fix them, try turning on NumLock and pressing Shift and a Numpad direction at the exact same time until controls normalize.<br>
+(This undoes the issue of RPG Maker getting "stuck" on an input if Shift and a Numpad button are pressed simultaneously.)<br>
+
+<br><hr><br>
+
+<b>Screenshots</b><br>
+<br>
+
+<table align="center">
+<tbody><tr align="center"><td><img src="Standstill%20Girl_files/StandstillScreen1.png"><br>
+<img src="Standstill%20Girl_files/StandstillScreen2.png"><br>
+<img src="Standstill%20Girl_files/StandstillScreen3.png"></td></tr>
+</tbody></table>
+
+<br><hr style="width: 80%"><br>
+
+<b>Guides</b><br><br>
+
+Instead of a complete walkthrough, I've made a collection of guides to various aspects of the game.<br>
+Click or highlight the black boxes to show spoiler text.<br>
+<b>Many spoilers within.</b><br>
+<br>
+<a href="javascript:%20toggleWalk()">Guides</a><br>
+<div id="walkthrough" style="display: none">
+<br>
+<table id="youtwit">
+<tbody><tr><td> 
+<b>Finding Items</b><br><br>
+
+Not much point in listing where to get accessories; just destroy all the cogs.<br><br>
+
+Each "area" (based on the order you go in) has a fixed set of accessories in its cogs.<br>
+After you exhaust those, you randomly get either consumable items or Force.<br>
+(The items and Force also scale up with the area number.)<br><br>
+
+<hr><br>
+
+<b>Gardening</b><br><br>
+
+When you plant a Repose Seed, it starts at 0 Growth and 0 Nutrition, of course.<br><br>
+
+When you win a battle, seeds in either spot grow.<br>
+Growth increases by 1, and Nutrition increases by Force earned divided by 2.<br><br>
+
+When the plant reaches Growth 10, it can't get any more nutrition.<br>
+Nutrition maxes at 999. However, only the last digit of Nutrition really matters.<br><br>
+
+<i>Up to Growth 4,</i> Repose Seeds remain Repose Seeds.<br>
+<i>From Growth 5 to 9,</i> they can be Gerberas (Nutrition ends in 2), Begonias (4),<br>
+Alstroemerias (6), or Joy Flowers (anything else).<br>
+<i>At Growth 10,</i> if the last digit is 6, it's a Fig of Loss; otherwise, it's a Pleasure Fruit.<br><br>
+
+The last digit is difficult enough to manipulate that it might as well be random.<br>
+But there's the info, just in case you wanted to know the exact workings.<br><br>
+
+<hr><br>
+
+<b>Extra Bosses</b><br><br>
+
+There are two extra bosses in Farsdale Hospital if you beat all five red Shadelings.<br>
+...That's all I'm going to say about that.<br><br>
+
+<hr><br>
+
+<b>Getting Skills</b><br><br>
+
+Except for the red Shadeling rewards, all skills are learned<br>
+at the end of a battle once the conditions for learning it are met.<br>
+All usage counts are cumulative, not in a single battle.<br><br>
+
+<b>Guard</b><br>
+Initial skill<br><br>
+
+<b>Flee</b><br>
+Initial skill<br><br>
+
+<b>Shock</b><br>
+Initial skill<br><br>
+
+<b>Brain Blue</b><br>
+Use Shock 25 times<br><br>
+
+<b>Innocent Rain</b><br>
+Use Brain Blue 20 times, use Southern Cross at least once<br><br>
+
+<b>Spirit Thorn</b><br>
+Take the battle lecture (or use Shock 40 times)<br><br>
+
+<b>Southern Cross</b><br>
+Use Spirit Thorn 20 times, then finish a battle with less than 50% LP<br><br>
+
+<b>Self-Holocaust</b><br>
+Use Southern Cross 10 times, then finish a battle with less than 50% LP<br><br>
+
+<b>Lacrimosa</b><br>
+Use Nervous Breakdown, Stray Sheep, and Nightmare at least 2 times each<br><br>
+
+<b>Nervous Breakdown</b><br>
+Have it used against you<br><br>
+
+<b>Stray Sheep</b><br>
+Have it used against you<br><br>
+
+<b>Nightmare</b><br>
+Have it used against you<br><br>
+
+<b>Aura</b><br>
+Use Guard 5 times, have 30 or more max LP (includes accessory bonuses)<br><br>
+
+<b>Anti-Pain</b><br>
+Use Aura 15 times, have 60 or more max LP (includes accessory bonuses)<br><br>
+
+<b>Centifulword</b><br>
+Use Anti-Pain 10 times, have 150 or more max LP (includes accessory bonuses)<br><br>
+
+<b>Spica</b><br>
+Be afflicted by a status ailment 7 times<br><br>
+
+<b>Constellation Shield</b><br>
+Use Southern Cross 10 times, use Spica 3 times<br><br>
+
+<b>Psychological</b><br>
+Beat red Shadeling in Malis Residential Area<br><br>
+
+<b>Element Wall</b><br>
+Beat red Shadeling in Pit Beyond Town<br><br>
+
+<b>Flam Shout</b><br>
+Beat red Shadeling in Departure for Malis<br><br>
+
+<b>E. Horrid</b><br>
+Beat red Shadeling in Magnolia, City of Scholars<br><br>
+
+<b>But the Spell Comes Out Your Eyes</b><br>
+Not a real skill; 1/100 chance of triggering when you use Just Watch<br><br>
+
+<hr><br>
+
+<b>Endings</b><br><br>
+
+To easily see all the endings, save after the cutscene where the hands are returned.<br><br>
+
+<b>Ending A</b><br>
+<span class="hint">If you try to enter the door and tell Gulinello you want<br>
+to take the punishment instead, he won't let you go in ahead of Tiska,<br>
+so you'll be forced to go talk to Tiska and see Ending B or C.<br>
+Instead, say you want to ask Order about forgoing the punishment.<br>
+When you reach World's Beginning, say you want to save Tiska.<br>
+If you don't, you'll be locked onto the other endings (and have to walk all the way back).</span><br><br>
+
+<b>Ending B</b><br>
+<span class="hint">Talk to Tiska and go through the Garden of Creation.<br>
+Watch over him.</span><br><br>
+
+<b>Ending C (True)</b><br>
+<span class="hint">Talk to Tiska and go through the Garden of Creation.<br>
+"..." over him, and then...</span><br><br>
+
+<hr><br>
+
+<b>Titles</b><br><br>
+
+Order gives you various titles in Alice's Backyard. There's not much point to them, though.<br>
+She chooses the first one on this list that applies.<br><br>
+
+<b>Insufficiently Progressed:</b> Enter the Backyard before the endgame.<br>
+<b>Slow-Footed Girl:</b> Have 30 AGL or less.<br>
+<b>Planter Girl:</b> Harvest every kind of plant.<br>
+<b>Part-Timer Girl:</b> Beat both bonus bosses.<br>
+<b>Fleeing Girl:</b> Flee 50 times.<br>
+<b>Finesse Girl:</b> Get all 21 skills.<br>
+<b>Invincible Girl:</b> Never lose a battle once.<br>
+<b>Achromatic Girl:</b> None of the above apply.
+</td></tr>
+</tbody></table>
+</div> 
+
+<br><hr><br>
+
+<a href="http://vgperson.com/games/">Nope nope</a>
+
+</div>
+
+
+</body></html>

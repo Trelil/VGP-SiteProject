@@ -1,0 +1,80 @@
+/****
+ * Header part
+ ****/
+
+.game_general_header_wrapper {
+	
+}
+.game_general_header_wrapper .header {
+	
+}
+.game_general_header_wrapper .sub_header {
+	
+}
+
+/****
+ * Left column part
+ ****/
+
+.game_general_left_column_wrapper {
+	
+}
+.cover_image {
+	
+}
+.cover_image .image {
+	
+}
+.download_section {
+	
+}
+.download.button {
+	
+}
+.game_general_left_column_wrapper .list {
+	
+}
+.game_general_left_column_wrapper .item {
+	
+}
+.game_general_left_column_wrapper .first {
+	
+}
+.game_general_left_column_wrapper .last {
+	
+}
+.screenshoot {
+	
+}
+
+/****
+ * Right column part
+ ****/
+
+.game_general_right_column_wrapper {
+	
+}
+.description {
+	
+}
+
+/****
+ * Footer part
+ ****/
+
+.game_general_footer_wrapper {
+	background-color : #000;
+}
+.game_general_footer_wrapper .list {
+	
+}
+.game_general_footer_wrapper .list .item {
+	display : inline-block;
+	list-style : none;
+}
+.game_general_footer_wrapper .list .first {
+	
+}
+.game_general_footer_wrapper .list .last {
+	
+}

@@ -1,0 +1,63 @@
+
+Installationsguide för Drupal 8
+	av Felix Hulthén.
+
+ 1.
+	Ladda ned drupal 8
+	
+		http://ftp.drupal.org/files/projects/drupal-8.0.x-dev.tar.gz
+
+ 2.
+	
+	Installera drupal 8
+	
+		- extrahera i apache2 root katalogen och döp filen till "vgperson"
+		
+		- starta SQL servern och skapa en databas:
+			
+			Copy paste detta i citattecken:
+			
+			"
+				CREATE DATABASE VGP;
+				USE DATABASE VPG;
+				GRANT ALL PRIVILEGES ON VGP.* TO 'drupal'@'localhost' IDENTIFIED BY 'password';
+			"
+			
+		- Gå in på drupal 8 sidan och följ instruktionerna.
+			
+			
+			
+			!!! DU MÅSTE VÄLJA "MINIMAL" INSTALATION !!!
+			
+			
+			
+			- användarnamn : drupal
+			- databasnamn : VGP
+			- lösenord : password
+
+ 3.
+	Konfigurera drupal 8
+		
+		- starta "filer" modulen under:
+			
+			http://localhost/vgperson/admin/config/content/formats
+			
+		- Klicka "Add text format"
+		
+		- Kalla det "Full HTML page"
+		
+		- Under "Roles" välj endast "Authenticated user" och
+			klicka på "save" / "create".
+		
+		- Skapa en ny sidtyp:
+			
+			http://localhost/vgperson/admin/structure/types
+		
+		- Kalla den "Empty page" och description "Use this as an empty page, used to create your own style."
+		
+		- Spara
+		
+		- Nu kan du skapa nya sidor genom att klicka på "Add content" under "Tools"!
+	
+ 4.
+	Var glad!
