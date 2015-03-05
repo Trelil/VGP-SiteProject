@@ -1,0 +1,97 @@
+/****
+ * Header part
+ ****/
+@font-face {
+	font-family : "Cantarell";
+	src : url("font_b.ttf");
+}
+@font-face {
+	font-family : "Smythe";
+	src : url("font_a.ttf");
+}
+h1, h2, h3, h4, h5 {
+	font-family : "Cantarell";
+}
+h1 {
+	font-size : 32px;
+}
+h2 {
+	font-size : 28px;
+}
+h3 {
+	font-size : 26px;
+}
+h4 {
+	font-size : 24px;
+}
+h5 {
+	font-size : 20px;
+}
+p, a, li, ul, span, div {
+	font-family : "Smythe";
+	font-size : 14px;
+}
+* {
+	margin : 0;
+	padding : 0;
+
+}
+#header, #breadcrumb, #navigation, #main-content,
+#footer, .panel-separator, .submitted {
+	display : none;
+}
+#page-title,
+.submes {
+	text-align : center;
+	font-size : 64px;
+	color : #FFF;
+	text-shadow : 1px 1px 2px #000;
+}
+.submes b {
+	color : #F00;
+}
+.submes a {
+	color : #00F;
+	font-size : 64px;
+	text-decoration : none;
+}
+.submes a:hover {
+	text-decoration : underline;
+}
+#page-title {
+	font-size : 128px;
+}
+@media (max-width : 600px) {
+	#page-title {
+		font-size : 64px;
+	}
+	.submes,
+	.submes b,
+	.submes a {
+		font-size : 32px;
+	}
+}
+.section,
+.panel-2col-stacked .panel-col-top .inside,
+.panel-2col-stacked .panel-col-last .inside {
+	margin : 0;
+}
+html, body {
+	min-width : 100%;
+	min-height : 100%;
+}
+body {
+	background-image : url(day_bg.png);
+	background-size : 640px 452px;
+	background-position : center;
+	padding-bottom : 20px;
+	background-repeat : repeat;
+	background-attachment : scroll;
+}
+.panels-flexible-region.panels-flexible-region-first.panels-flexible-region-last {
+	width : 100%;
+}
+#page-wrapper {
+	max-width : 1024px;
+	margin : 0 auto;
+}
