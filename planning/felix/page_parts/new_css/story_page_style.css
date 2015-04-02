@@ -1,0 +1,100 @@
+/****
+ * Header part
+ ****/
+
+.story_header_wrapper {
+	position : relative;
+	background-color : #000;
+	height : 200px;
+}
+.story_header_wrapper .header {
+	position : absolute;
+	top : 0;
+	left : 0;
+	color : #FFF;
+	padding : 10px 20px;
+	margin : 0;
+	border : solid 10px #FFF;
+	min-width : 50%;
+}
+.story_header_wrapper .sub_header {
+	position : absolute;
+	right : 0;
+	bottom : 0;
+	color : #FFF;
+	padding : 10px 20px;
+}
+
+
+/****
+ * Body part
+ ****/
+
+.story_body_wrapper {
+	
+}
+.container {
+	position : relative;
+	margin : 22px auto;
+	padding : 10px;
+	padding-bottom : 32px;
+	width : 1024px;
+	max-width : 90%;
+	background-color : black;
+	color : #FFF;
+}
+.container .header {
+	text-align : center;
+}
+.container .description {
+	
+}
+.sub_title {
+	position : absolute;
+	right : 0;
+	bottom : 0;
+	width : 25%;
+}
+.sub_title .pre_title {
+	display : inline;
+}
+.sub_title .chapter_number {
+	display : inline;
+}
+.story_body_wrapper .section {
+	position : relative;
+	margin : 22px auto;
+	padding : 10px;
+	padding-bottom : 32px;
+	width : 1024px;
+	max-width : 90%;
+	background-color : black;
+	color : #FFF;
+}
+.story_body_wrapper .section .image {
+	width : 100%;
+}
+.story_body_wrapper .section .story_content {
+	
+}
+
+/****
+ * Footer part
+ ****/
+
+.story_footer_wrapper {
+	background-color : #000;
+}
+.story_footer_wrapper .list {
+	
+}
+.story_footer_wrapper .list .item {
+	display : inline-block;
+	list-style : none;
+}
+.story_footer_wrapper .list .first {
+	
+}
+.story_footer_wrapper .list .last {
+	
+}

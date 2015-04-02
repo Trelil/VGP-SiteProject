@@ -1,0 +1,315 @@
+/****
+ * Header part
+ ****/
+@font-face {
+	font-family : "Cantarell";
+	src : url("font_b.ttf");
+}
+@font-face {
+	font-family : "Smythe";
+	src : url("font_a.ttf");
+}
+h1, h2, h3, h4, h5 {
+	font-family : "Cantarell";
+}
+h1 {
+	font-size : 32px;
+}
+h2 {
+	font-size : 28px;
+}
+h3 {
+	font-size : 26px;
+}
+h4 {
+	font-size : 24px;
+}
+h5 {
+	font-size : 20px;
+}
+p, a, li, ul, span, div {
+	font-family : "Smythe";
+	font-size : 14px;
+}
+* {
+	margin : 0;
+	padding : 0;
+
+}
+#header, #breadcrumb, #navigation, #main-content,
+#page-title, #footer, .panel-separator, .submitted {
+	display : none;
+}
+.section,
+.panel-2col-stacked .panel-col-top .inside,
+.panel-2col-stacked .panel-col-last .inside {
+	margin : 0;
+}
+html, body {
+	min-width : 100%;
+	min-height : 100%;
+}
+body {
+	background-image : url(bg.jpg);
+}
+.panels-flexible-region.panels-flexible-region-first.panels-flexible-region-last {
+	width : 100%;
+}
+
+
+.menu {
+	position : absolute;
+	display : block;
+	top : 72px;
+	padding : 10px 20px;
+	right : 20px;
+	left : 20px;
+	max-width : 1024px;
+}
+.menu li {
+	display : block;
+	list-style : none;
+	padding-top : 2px;
+	width : 25%;
+	margin : 0;
+	padding : 20px 0;
+	background-color : #6EB500;
+	float : left;
+}
+.menu li:hover {
+	background-color : #4D9300;
+}
+.menu .link {
+	display : block;
+	text-align : center;
+	font-size : 20px;
+	text-decoration : none;
+	color : #EEF;
+	font-family : "Cantarell";
+}
+
+
+.game_general_header_wrapper {
+	position : relative;
+	background-color : #000;
+	height : 200px;
+	color : #FFF;
+}
+.game_general_header_wrapper > .header {
+	position : absolute;
+	top : 0;
+	left : 0;
+	color : #FFF;
+	padding : 10px 20px;
+	margin : 0;
+	border : inset 4px #4D0367;
+	min-width : 50%;
+}
+.game_general_header_wrapper .sub_header {
+	position : absolute;
+	right : 0;
+	bottom : 0;
+	color : #FFF;
+	padding : 10px 20px;
+}
+.game_general_header_wrapper > .header,
+.game_general_header_wrapper {
+	background-image : linear-gradient(to bottom, #620583, #4D0367);
+}
+
+/****
+ * Left column part
+ ****/
+
+.game_general_left_column_wrapper {
+	
+}
+.cover_image {
+	background-color : #4D0367;
+	padding : 10px;
+}
+.cover_image .image {
+	width : 100%;
+	color : #FFF;
+}
+.download_section {
+	background : #FC0 linear-gradient(to bottom, #FC0, #A80);
+	padding : 20px;
+	margin : 10px 0;
+	border-radius : 8px;
+}
+.download.button {
+	display : block;
+	margin : 32px auto;
+	font-size : 20px;
+	color : #FFF;
+	border : outset 1px rgba(0, 0, 0, 0.3);
+	background-color : rgba(255, 255, 200, 0.2);
+	border-radius : 10px;
+	font-family : "Cantarell";
+	text-decoration : none;
+	text-align : center;
+	padding : 10px 32px;
+	background-image : url(download.png);
+	background-size : 32px;
+	background-repeat : no-repeat;
+	background-position : center left;
+	max-width : 300px;
+}
+.download.button:hover {
+	background-color : rgba(255, 255, 200, 0.4);
+}
+.download.button:active {
+	background-color : rgba(100, 100, 0, 0.2);
+}
+.game_general_left_column_wrapper .list {
+	margin : 0;
+	padding : 0;
+}
+.game_general_left_column_wrapper .item {
+	list-style : none;
+	background-color : #4D0367;
+	padding : 4px;
+	margin : 10px 0;
+}
+.game_general_left_column_wrapper .first {
+	
+}
+.game_general_left_column_wrapper .last {
+	
+}
+.screenshot {
+	width : 100%;
+	color : #FFF;
+}
+
+/****
+ * Right column part
+ ****/
+
+.game_general_right_column_wrapper {
+	background-color : #4D0367;
+	padding : 10px;
+}
+.game_general_right_column_wrapper * {
+	color : #FFF;
+}
+.description,
+.walkthrough,
+.endings,
+.guide,
+.music,
+.bonus {
+	margin : 32px 0;
+	padding : 10px;
+}
+table {
+	width : 100%;
+	table-layout: fixed;
+}
+td {
+	overflow : hidden;
+	padding : 2px 4px;
+}
+p {
+	margin : 10px 0;
+	font-size : 16px;
+	max-width : 36em;
+}
+.description {
+	background-color : rgba(100, 100, 220, 0.4);
+}
+.walkthrough {
+	background-color : rgba(220, 220, 100, 0.4);
+}
+.guide {
+	background-color : rgba(100, 220, 100, 0.4);
+}
+.endings {
+	background-color : rgba(100, 220, 100, 0.4);
+}
+.music {
+	background-color : rgba(220, 220, 220, 0.4);
+}
+.bonus {
+	background-color : rgba(100, 220, 220, 0.4);
+}
+ul, li, h2, h3, h4, h5 {
+	margin : 10px 0;
+	padding : 0;
+}
+ul, li {
+	padding : 0;
+}
+li {
+	list-style : none;
+}
+h2 {
+	font-size : 21px;
+}
+h3 {
+	font-size : 20px;
+}
+h4 {
+	font-size : 19px;
+}
+h5 {
+	font-size : 18px;
+}
+h3 + p,
+h4 + p,
+h5 + p,
+li {
+	margin-bottom : 32px;
+}
+
+@media (max-width : 540px) {
+	
+	.panel-2col-stacked .panel-col-last,
+	.panel-2col-stacked .panel-col-first {
+		width : 100%;
+		float : none;
+		padding : 0;
+	}
+	.panel-2col-stacked .panel-col-first .inside,
+	.panel-2col-stacked .panel-col-last .inside {
+		padding : 0;
+		margin : 0;
+	}
+}
+
+/****
+ * Footer part
+ ****/
+
+.game_general_footer_wrapper {
+	background-color : #4D0367;
+	background-image : linear-gradient(to bottom, #4D0367, #620583);
+}
+.game_general_footer_wrapper .list {
+	display : block;
+	padding : 10px;
+	margin : 0 auto;
+}
+.game_general_footer_wrapper .list .item {
+	display : block;
+	list-style : none;
+	padding-top : 2px;
+	max-width : 256px;
+	margin : 0 auto;
+}
+.game_general_footer_wrapper .list .first {
+	
+}
+.game_general_footer_wrapper .list .last {
+	
+}
+.game_general_footer_wrapper a {
+	display : block;
+	text-align : center;
+	font-size : 20px;
+	text-decoration : none;
+	color : #EEF;
+	font-family : "Cantarell";
+	background-color : #6EB500;
+}
