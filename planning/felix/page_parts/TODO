@@ -1,9 +1,0 @@
-Change and commit all the HEADER.html files:
-	
-	change the linked style element from <style> to <link>!
-	
-	Remove line breaks in (story) content when two spans follow each other. (drupal converts them to <br />)
-	
-	Change button to span in (listpage).
-	
-	The FILTER module's "Full HTML" type in drupal has to be configured to minimize text correction!
