@@ -1,0 +1,459 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>The Witch's House</title>
+<link rel="stylesheet" type="text/css" href="The%20Witch%27s%20House_files/stylish.css">
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-43682553-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<style type="text/css">
+body
+{
+background-color: #001505;
+background-image: url("/graphics/WitchHouseTreeBG.png");
+color: #DDDDDD;
+font-size: 13px;
+width: 800px;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+
+a:link
+{
+color: #EE6666;
+}
+a:visited
+{
+color: #EE6666;
+}
+a:hover
+{
+color: #AA3333;
+}
+a:active
+{
+color: #AA3333;
+}
+
+img
+{
+image-rendering: auto;
+}
+
+hr
+{
+border: 0;
+background-color: #AA3333;
+height: 2px;
+margin-left: auto;
+}
+
+.hint
+{
+color: #000000;
+background-color: #000000;
+}
+
+.hint.show
+{
+color: #DDDDDD;
+background-color: transparent;
+}
+
+table#youtwit
+{
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+background-color: #222222;
+border-style: solid;
+border-color: #999999;
+padding: 8px;
+}
+
+div#main
+{
+width: 800px;
+margin-left: auto;
+margin-right: auto;
+padding: 16px;
+background-color: rgba(20, 31, 15, 0.9); // #001202
+border-style: solid;
+border-radius: 10px;
+}
+</style>
+<script language="JavaScript">
+var eshow = 0;
+var tshow = 0;
+
+function toggleWalk()
+{
+	if(eshow == 0)
+	{
+		eshow = 1;
+		document.getElementById("walkthrough").style.display = "inline";
+	}
+	else
+	{
+		eshow = 0;
+		document.getElementById("walkthrough").style.display = "none";
+	}
+}
+function toggleTracks()
+{
+	if(tshow == 0)
+	{
+		tshow = 1;
+		document.getElementById("tracks").style.display = "inline";
+	}
+	else
+	{
+		tshow = 0;
+		document.getElementById("tracks").style.display = "none";
+	}
+}
+
+var hintToggle = function()
+{
+	if (this.className.indexOf("show") == -1)
+		this.className += " show";
+}
+window.onload = function()
+{
+	var hintNodes = document.getElementsByClassName("hint");
+	for(var i = 0; i < hintNodes.length; i++)
+	        hintNodes[i].onclick = hintToggle;
+}
+</script>
+</head>
+<body>
+
+<div id="main">
+
+<img src="The%20Witch%27s%20House_files/WitchsHouseLogo.png"><br><br>
+
+<b>The Witch's House</b> is a freeware puzzle-oriented horror game by <a href="http://majonoie.karou.jp/index.html">Fummy</a> made in RPG Maker VX.<br>
+<br>
+<i>The young Viola visits a mysterious house in the woods.<br>
+She soon discovers its dangerous nature and must find a way out.<br>
+But the house is ever-changing, and death could be lurking anywhere...</i><br>
+<br>
+(Be aware that some elements of the game are somewhat violent.)<br>
+
+<br><hr><br>
+
+<a href="http://www.mediafire.com/?jarg65dl8o1loiq">Download The Witch's House 1.07</a> | <a href="http://vgperson.com/games/TheWitchsHouse107.zip">(Mirror)</a><br>
+(Please disregard if Chrome tells you the file is malicious; this is in error and beyond my control.)<br><br>
+
+Installation of the RPG Maker VX RTP is required to play.<br>
+<a href="http://dl.degica.com/trial/enterbrain/vx/rtp/vx_rtp102e.zip">Download RTP</a><br><br>
+
+<a href="http://rpgosx.tumblr.com/rpghub">RPGHub</a> is recommended to play on a Mac.<br>
+(Please report any issues with RPGHub to RPGOSX, not to me.)<br>
+
+<br><hr><br>
+
+<b>Troubleshooting</b><br><br>
+
+Please make sure to extract the game to its own folder instead of running directly from the ZIP file.<br>
+If you don't do so, any saves made will be lost the next time you run the game.<br>
+
+<br><hr><br>
+
+<b>Screenshots</b><br>
+<br>
+<table align="center">
+<tbody><tr align="center"><td><img src="The%20Witch%27s%20House_files/TWHScreen1.png"><br>
+<img src="The%20Witch%27s%20House_files/TWHScreen2.png"><br>
+<img src="The%20Witch%27s%20House_files/TWHScreen3.png"></td></tr>
+</tbody></table>
+
+<br><hr style="width: 80%"><br>
+
+<b>Walkthrough</b><br><br>
+
+The official site includes a hint-based walkthrough if you get stuck, which I've translated below.<br>
+Click or highlight the black boxes below your problem to see a hint or answer.<br><br>
+
+There are also some details about the endings and other special events.<br><br>
+
+<a href="javascript:%20toggleWalk()">Walkthrough</a><br>
+<div id="walkthrough" style="display: none">
+<br>
+<table id="youtwit">
+<tbody><tr><td>
+<b>= After Starting =</b><br><br>
+
+Q: I can't go anywhere.<br>
+A: <span class="hint">There's a secret passage on the left of the area with the large patch of roses. Get the machete there.<br>
+Go to the small rose patch in the area you began in, open the menu, and choose the machete.</span><br><br>
+
+<hr><br>
+
+<b>= Witch's House Floor 1 =</b><br><br>
+
+Q: What do I do in the room with the blood stain?<br>
+A: <span class="hint">Don't step on the bloody tile. Read the note on the wall and leave the room.</span><br><br>
+
+Q: The *** won't fit.<br>
+A: <span class="hint">Cut it up with the scissors.</span><br><br>
+
+Q: How do I get past the giant ***?<br>
+A: <span class="hint">Just run away into the hall on the right, and it'll leave.</span><br><br>
+
+Q: I can't lend a hand.<br>
+A: <span class="hint">Lend the teddy bear's.</span><br><br>
+
+Q: I found some soup, but I don't get any choices.<br>
+A: <span class="hint">Move the chair on the left side of the dining room and read the note on the table.</span><br><br>
+
+Q: The poison kills me.<br>
+HINT: <span class="hint">Silver tableware can help detect poison. Check your item descriptions.</span><br>
+A: <span class="hint">Use the silver key in front of the soup.</span><br><br>
+
+<hr><br>
+
+<b>= Witch's House Floor 2 =</b><br><br>
+
+Q: The door out won't open after I get the <span class="hint">butterfly</span>.<br>
+A: <span class="hint">Put a butterfly model in place of the living one, and you can leave.</span><br><br>
+
+Q: Where can I get something to bind books?<br>
+A: <span class="hint">In a barrel on the right side of the room with the big spider web.</span><br><br>
+
+Q: How do I use the Book of ***?<br>
+A: <span class="hint">Put it in the bookshelf in the bottom-right of the room with glass cases.</span><br><br>
+
+Q: After using the book, what do I do?<br>
+A: <span class="hint">A skull will start chasing you on the way back. You simply need to get around it and leave the room.<br>
+It's easiest to go around the bookcase to evade it. Remember that there's a run button.</span><br><br>
+
+Q: What do I do with the books in the library?<br>
+A: <span class="hint">Reading them has no impact on progression.</span><br><br>
+
+<hr><br>
+
+<b>= Witch's House Floor 3 =</b><br><br>
+
+Q: I can't dodge the knives.<br>
+A: <span class="hint">Running down the left side is the easiest way.</span><br><br>
+
+Q: I can't flip the switch across the thin bridge.<br>
+A: <span class="hint">Use the frog to flip it.</span><br><br>
+
+Q: I can't make a mirror image.<br>
+A: <span class="hint">Once everything else in the rooms is mirrored, <b>finish by tearing off the note on the wall.</b></span><br>
+<a href="http://vgperson.com/graphics/TWHMirrorHint.gif">Here's how it should look.</a><br><br>
+
+Q: What do I do in the passage of no distractions?<br>
+A: <span class="hint">You can't move to the sides, period. Ignore any knives that come your way.</span><br><br>
+
+Q: There's something on the other side of the door...<br>
+A: <span class="hint">Once you've noticed the window on the door, push the frog in.</span><br><br>
+
+<hr><br>
+
+<b>= Witch's House Floor 4 =</b><br><br>
+
+Q: Where is one eye closed?<br>
+HINT: <span class="hint">Check in a place where one eye would be closed and one eye would be open.</span><br>
+A: <a href="http://vgperson.com/graphics/TWHEyeHint.gif">Here.</a><br><br>
+
+Q: How do you make sound in the four rooms?<br>
+A: <span class="hint">Play the piano.<br>
+Correctly start the music box.<br>
+Hit the pumpkin.<br>
+Make the clock tick.<br>
+Once all that's been done, the upper-right door in the piano room will open.</span><br><br>
+
+Q: What does "BLUE EYES SEE THE SCORE" mean?<br>
+HINT: <span class="hint">The painting ladies are looking across the room at something. But which one has blue eyes?</span><br><br>
+
+Q: I can't figure out the "Eye Studies" book.<br>
+HINT: <span class="hint">Check the dresser mirror or open the menu for an extra bit of information.</span><br>
+A: <span class="hint">Check the wall opposite the painting of the black-haired woman.</span><br><br>
+
+Q: The door won't open in the room with the paintings.<br>
+A: <span class="hint">Hit the big pumpkin four times.</span><br><br>
+
+Q: What's the answer to the riddle?<br>
+A: <span class="hint">A clock.</span><br><br>
+
+Q: After getting the blank ***...<br>
+A: <span class="hint">The door will be locked. Strike the wall where the woman painting used to be.</span><br><br>
+
+Q: How do I play the music box?<br>
+HINT: <span class="hint">"12" involves the playing cards in the room on the right. 12 in cards is...</span><br>
+A: <span class="hint">Use the Queen key. When you exit into the hall with the music box playing, your answer will be judged.</span><br><br>
+
+Q: How do I get the <span class="hint">clock</span> to make sound?<br>
+A: <span class="hint">Push the red chair in front of the clock, climb up, and use whatever key you have left.</span><br><br>
+
+<hr><br>
+
+<b>= After Making Sound in Four Rooms =</b><br><br>
+
+Q: I can't make it past the woman statue.<br>
+A: <span class="hint">Once you've talked to her, go back and take a look at the previous room.</span><br><br>
+
+Q: I can't leave after getting the *** ring.<br>
+A: <span class="hint">Return the gold chopsticks to where they were. The correct location is in the ribs.</span><br><br>
+
+<hr><br>
+
+<b>= Witch's House Floor 5 =</b><br><br>
+
+Q: What do I do in the room with the dolls?<br>
+A: <span class="hint">Match the dolls with the color of the pedestals.</span><br><br>
+
+Q: Where's the medicine?<br>
+HINT: <span class="hint">The powder from the yellow flowers...</span><br>
+A: <span class="hint">Talk to the yellow flower on the bottom to hear its request. Just talking to it is fine.<br>
+Afterward, talk to the red grasses and ask them about how to X.<br>
+Then, X the white flower, talk to the yellow flowers, and you'll get the white powder.</span><br><br>
+
+Q: What's the proper way to X?<br>
+HINT: <span class="hint">Ask the red grasses, but remember what you read about them.</span><br>
+A: <span class="hint">"Plucking."</span><br><br>
+
+Q: What do I need to use the medicine?<br>
+A: <span class="hint">It's deep in the dark area. Go there once you get something to light your way.</span><br><br>
+
+Q: How can I light my way?<br>
+HINT: <span class="hint">When the white flowers are touched by rain...</span><br>
+A: <span class="hint">Get the empty bottle from the shelf in the poison room.<br>
+Get the petals from the plucked white flower.<br>
+In the room with the skulls, line them up correctly, then pull the lever.<br>
+This will pour water into the room with the big hole.<br>
+Combine the petals, bottle, and water to make a glowing bottle.</span><br><br>
+
+Q: These creepy plants are in the way.<br>
+A: <span class="hint">After giving the white powder to the prisoner, pry open the toppled birdcage.</span><br><br>
+
+Q: Where can I get skulls?<br>
+A: <span class="hint">Under a table in the yellow flower room.<br>
+After asking the red grasses how to X, on the chair next to the Talkative Plants book.<br>
+On one of the shelves in the poison room - it's random as of 1.07.<br>
+In the pot on the way to the room with lined-up skulls.</span><br><br>
+
+Q: I don't get how to arrange the skulls.<br>
+HINT: <span class="hint">Starting in the center, he turns his head front, right, left...<br>
+From the center, is there a logical route that follows the repeating front-right-left pattern?<br>
+Don't overthink how the soldier orients himself; a skull facing left from your perspective is always "left."<br>
+Let the pre-placed skulls guide you. A front-facing skull is in the center - where does it go from there?</span><br>
+A: <a href="http://vgperson.com/graphics/TWHSkullHint.gif">Here's the solution.</a><br><br>
+
+Q: The skeleton wall...<br>
+A: <span class="hint">You can leave by mashing the confirm button. There's no item to get. This event can be ignored.</span><br><br>
+
+Q: What to do with the *** shoes?<br>
+HINT: <span class="hint">"Let them bleed," because they're bloody.</span><br>
+A: <span class="hint">Use the red shoes in front of the water to wash the blood off.</span><br><br>
+
+Q: The number door... (NOTE: This puzzle was removed from newer versions.)<br>
+HINT 1: <span class="hint">Check the corners of the room.</span><br>
+HINT 2: <span class="hint">Four numbers, and a four-digit code. Which means...</span><br>
+HINT 3: <span class="hint">The numbers are all single digits from 0 to 9. The key to the puzzle is the upper-right.<br>
+If it's only one digit after being multiplied by 666, what digit would it have to be...?</span><br>
+A: <span class="hint">6006.</span><br><br>
+
+Q: How do I use the doll ***?<br>
+A: <span class="hint">Combine it with the headless doll.<br>
+Put that doll on the pedestal in the room where you arranged the dolls.</span><br><br>
+
+<hr><br>
+
+<b>= Ending Split =</b><br><br>
+
+There are two endings.<br>
+They split off after the very last save.<br><br>
+
+<b>NORMAL END</b><br>
+<span class="hint">Leave the house without doing anything special.<br>
+Whether you get the item in the forest afterward or not has no bearing.</span><br><br>
+
+<b>TRUE END</b><br>
+<span class="hint">While fleeing, check the closet in the upper-right room on the first floor.<br>
+After getting ***'s ***, leave the house.</span><br><br>
+
+<hr><br>
+
+<b>AFTER THE TRUE END...?</b><br><br>
+
+<span class="hint">While there are only two distinct endings, there are a number of things you likely may have missed.</span><br><br>
+
+<span class="hint">If you backtrack before the end, some things earlier on have changed.<br>
+Most notably, additional books in the 2F library appear as you progress and read certain diaries.</span><br><br>
+
+<span class="hint">After getting the true ending, "A Funny Story" in the library changes to a book about Ellen.<br>
+Since this is done at the very end of the game, it sets a flag on the last file you saved in.<br>
+Thus, I believe you need to save prior to the witch's room and <i>not</i> save over it when the chase starts.</span><br><br>
+
+<span class="hint">You can go through the whole game without talking to the black cat, proving you don't need his help.<br>
+(Make sure you don't talk to him AT ALL. Even if you don't save with him, it counts against you.<br>
+The one exception to this is the distractions hallway on the third floor, which gives you a sort of midpoint.)<br>
+If you do this, he'll talk with you in front of the witch's room, which leads into some other slight changes.<br>
+Fummy calls this a pseudo-third ending, but you can go to either of the defined endings from this point.</span><br><br>
+
+<span class="hint">As long as you don't read the note before the "no distractions" hallway, you're free to go to the sides.<br>
+(NOTE: As of 1.07, your reading of the warning is remembered across playthroughs.<br>
+Delete PublicData if you want it to forget, though this will also clear some other things.<br>
+Be careful that you're starting a brand new save after clearing PublicData, or it will remember.)<br>
+If you bug the cat here and say you need help, he allows you a "free" save for a no-saves run.</span><br><br>
+
+<span class="hint">New to 1.07 is the "-----" ending, which Fummy doesn't even count in the readme.<br>
+To obtain it... wait on the first screen. For an hour. And the window has to be active.<br>
+After 10 minutes, the cat will get bored and tell you to move on. After 50, he'll leave.<br>
+After an hour, you'll be taken to the other screen, where the roses vanish.<br>
+Why do they do that? The end of the novel, The Diary of Ellen, provides an explanation.<br>
+It's also the most practical way to figure this out for yourself, but still...</span>
+</td></tr>
+</tbody></table>
+</div>
+
+<br><hr style="width: 80%"><br>
+
+<b>Music</b><br><br>
+
+All the music in the game can be found in the Audio/BGM subfolder.<br>
+Below is a list of songs and their sources.<br><br>
+
+Note that there are some spoilers, mostly with regard to where songs are used.<br><br>
+
+<a href="javascript:%20toggleTracks()">Song List</a><br>
+<div id="tracks" style="display: none">
+<br>
+<table id="youtwit" width="500px">
+<tbody><tr align="center"><td><b>Name</b></td> <td><b>Full Name</b></td> <td><b>Usage</b></td> <td><b>Source Link</b></td></tr>
+<tr align="center"><td>op2</td> <td>Awakening</td> <td>4F Piano</td> <td><a href="http://majonoie.karou.jp/muzic/op2.mp3">Fummy Original</a></td></tr>
+<tr align="center"><td>spoolofthread</td> <td>Spool of Thread</td> <td>4F Music Box</td> <td><a href="http://majonoie.karou.jp/muzic/itomaki.mp3">Fummy Original</a></td></tr>
+<tr align="center"><td>ed3</td> <td>Ending No. 3</td> <td>Unused</td> <td><a href="http://majonoie.karou.jp/muzic/ed3.mp3">Fummy Original</a></td></tr>
+<tr align="center"><td>Cellar</td> <td>Cellar</td> <td>2nd Floor</td> <td><a href="http://www.presence-of-music.com/cn13/cn25/cellar.html">Source</a></td></tr>
+<tr align="center"><td>Lost_Chair</td> <td>Lost Chair</td> <td>Title</td> <td><a href="http://www.presence-of-music.com/cn13/cn22/lost_chair.html">Source</a></td></tr>
+<tr align="center"><td>Miller_house</td> <td>Miller House</td> <td>Ending</td> <td><a href="http://www.presence-of-music.com/cn13/cn25/miller_house.html">Source</a></td></tr>
+<tr align="center"><td>Outline</td> <td>Outline</td> <td>???</td> <td><a href="http://www.presence-of-music.com/cn13/cn25/outline.html">Source</a></td></tr>
+<tr align="center"><td>Rumor</td> <td>Rumor</td> <td>3rd Floor</td> <td><a href="http://www.presence-of-music.com/cn13/cn25/rumor.html">Source</a></td></tr>
+<tr align="center"><td>Undermine</td> <td>Undermine</td> <td>5th Floor</td> <td><a href="http://www.presence-of-music.com/cn13/cn25/undermine.html">Source</a></td></tr>
+<tr align="center"><td>Warehouse</td> <td>Warehouse</td> <td>1st Floor</td> <td><a href="http://www.presence-of-music.com/cn13/cn25/warehouse.html">Source</a></td></tr>
+<tr align="center"><td>loop_65</td> <td>loop_65</td> <td>Tension</td> <td><a href="http://www.senses-circuit.com/dlcount/dlcount.cgi?f=277_1">Source</a></td></tr>
+</tbody></table>
+</div>
+
+<br><hr><br>
+
+<a href="http://vgperson.com/games/">COME TO MY ROOM</a>
+
+</div>
+
+
+</body></html>

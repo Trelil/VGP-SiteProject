@@ -1,0 +1,296 @@
+/****
+ * Header part
+ ****/
+
+@font-face {
+	font-family : "Cantarell";
+	src : url("font_b.ttf");
+}
+@font-face {
+	font-family : "Smythe";
+	src : url("font_a.ttf");
+}
+h1, h2, h3, h4, h5 {
+	font-family : "Cantarell";
+}
+h1 {
+	font-size : 32px;
+}
+h2 {
+	font-size : 28px;
+}
+h3 {
+	font-size : 26px;
+}
+h4 {
+	font-size : 24px;
+}
+h5 {
+	font-size : 20px;
+}
+p, a, li, ul, span, div {
+	font-family : "Smythe";
+	font-size : 14px;
+}
+* {
+	margin : 0;
+	padding : 0;
+
+}
+#header, #breadcrumb, #navigation, #main-content,
+#page-title, #footer, .panel-separator, .submitted {
+	display : none;
+}
+.section,
+.panel-2col-stacked .panel-col-top .inside,
+.panel-2col-stacked .panel-col-last .inside {
+	margin : 0;
+}
+html, body {
+	min-width : 100%;
+	min-height : 100%;
+}
+body {
+	background-image : linear-gradient(to bottom, #4D0367, #4D0367), url(day_bg.png);
+	background-size : 100% 400px, 640px 452px;
+	background-position : top, center;
+	padding-bottom : 20px;
+	background-repeat : no-repeat, repeat;
+	background-attachment : scroll, scroll;
+}
+.panels-flexible-region.panels-flexible-region-first.panels-flexible-region-last {
+	width : 100%;
+}
+#page-wrapper {
+	max-width : 1024px;
+	margin : 0 auto;
+}
+
+
+.menu {
+	position : absolute;
+	display : block;
+	top : 72px;
+	padding : 2px 20px;
+	right : 20px;
+	left : 20px;
+	margin : 32px auto;
+	max-width : 1024px;
+}
+.menu li {
+	display : inline-block;
+	list-style : none;
+	padding-top : 2px;
+	width : 25%;
+	margin : 0;
+	padding : 20px 0;
+	background-color : #6EB500;
+	float : left;
+}
+.menu li:hover {
+	background-color : #4D9300;
+}
+.menu .link {
+	display : block;
+	text-align : center;
+	font-size : 20px;
+	text-decoration : none;
+	color : #EEF;
+	font-family : "Cantarell";
+}
+
+
+.lyrics_header_wrapper {
+	position : relative;
+	height : 200px;
+	color : #FFF;
+	padding-top : 200px;
+	/*margin-bottom : 100px;*/
+}
+.lyrics_header_wrapper > .header {
+	position : absolute;
+	top : 0;
+	left : 0;
+	color : #FFF;
+	padding : 10px 20px;
+	margin : 0;
+	/*border : inset 4px #4D0367;*/
+	min-width : 50%;
+}
+.lyrics_header_wrapper .sub_header {
+	position : absolute;
+	right : 0;
+	bottom : 0;
+	color : #FFF;
+	padding : 10px 20px;
+	background-color : #A277B2;
+	left : 0;
+	text-align : right;
+}
+.lyrics_header_wrapper > .header {
+	background-color : #A277B2;
+	border-bottom-right-radius : 32px;
+}
+.lyrics_header_wrapper {
+	/*background-image : linear-gradient(to bottom, #620583, #4D0367);
+	background-color : #620583;*/
+	background-color : rgba(162, 05, 153, 0.7);
+	background-image : url(banner_tiles.png),
+		linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent),
+		linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
+	background-size : 64px 64px, 128px 128px, 128px 128px;
+}
+.filter_section {
+	/*REMOVE FOR FILTERS*/
+	display : none;
+	/*END REMOVAL*/
+	position : absolute;
+	top : 200px;
+	right : 20px;
+	left : 20px;
+}
+.filter {
+	border : solid 6px #000;
+	border-top : none;
+	padding : 4px 10px;
+	background-color : #4D0367;
+}
+.filter > .header {
+	display : inline-block;
+	margin : 0;
+	width : 50%;
+	color : #FFE;
+	height : 42px;
+}
+.filter .status {
+	display : inline-block;
+	width : 50%;
+	float : right;
+	height : 32px;
+	line-height : 32px;
+	margin : 5px 0;
+	text-align : center;
+	background-color : rgba(230, 240, 200, 0.5);
+	color : #FFF;
+	background-image : none;
+}
+.status.on {
+	
+}
+.status.off {
+	
+}
+
+/****
+ * Body part
+ ****/
+
+.lyrics_body_wrapper {
+	/*max-width : 900px;*/
+	margin : 0 auto;
+	/*background-color : #4D0367;*/
+	padding : 26px 10px;
+}
+.table {
+	width : 100%;
+	border-spacing : 2px 4px;
+	border-collapse : separate;
+	table-layout: fixed;
+}
+.row {
+	
+}
+th {
+	color : #FFE;
+	font-size : 28px;
+	text-align : center;
+}
+.cell {
+	margin : 10px;
+	padding : 5px;
+	background : #CEC linear-gradient(to bottom, #FEF, #ECE) no-repeat center;
+	color : #FFF;
+	text-align : center;
+}
+.cell a {
+	text-decoration : none;
+	color : #821;
+}
+.cell a + a {
+	margin-left : 22px;
+}
+.more {
+	display : none;
+	padding : 0;
+	margin : 0 auto;
+	background-color : #000;
+	color : #FFF;
+	font-size : 42px;
+	line-height : 42px;
+	border : outset 6px #000;
+}
+.more:hover {
+	background-color : #555;
+}
+.more:active {
+	background-color : #000;
+	border-style : inset;
+}
+
+	@media (max-width : 540px) {
+		
+		#page-wrapper h1.header {
+			position : relative;
+			width : auto;
+			border : none;
+			text-align : center;
+		}
+		
+		.menu {
+			right : 0;
+			left : 0;
+			padding : 2px 2px;
+		}
+		
+		.lyrics_header_wrapper > .header {
+			border-radius : 0;
+		}
+	}
+
+/****
+ * Footer part
+ ****/
+
+.lyrics_footer_wrapper {
+	/*background-color : #4D0367;
+	background-image : linear-gradient(to bottom, #4D0367, #620583);*/
+	background-color : #620583;
+	padding-bottom : 32px;
+}
+.lyrics_footer_wrapper .list {
+	display : block;
+	padding : 10px;
+	margin : 0 auto;
+}
+.lyrics_footer_wrapper .list .item {
+	display : block;
+	list-style : none;
+	padding-top : 2px;
+	max-width : 256px;
+	margin : 0 auto;
+}
+.lyrics_footer_wrapper .list .first {
+	
+}
+.lyrics_footer_wrapper .list .last {
+	
+}
+.lyrics_footer_wrapper a {
+	display : block;
+	text-align : center;
+	font-size : 20px;
+	text-decoration : none;
+	color : #EEF;
+	font-family : "Cantarell";
+	background-color : #6EB500;
+}
